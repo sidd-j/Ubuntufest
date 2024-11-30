@@ -1,0 +1,312 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    /* Dark background */
+    color: #e0e0e0;
+    /* Light text color */
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    background: url('/MainImage.jpg') center center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-attachment: fixed;
+    /* This creates the basic parallax effect */
+    background-position: center;
+    background-size: cover;
+}
+
+/* Hero Section Overlay */
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Dark overlay */
+}
+
+/* Hero Section Content */
+.hero-section .content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Call to Action Button */
+.cta-button {
+    background-color: #f39c12;
+    /* A professional green */
+    color: #ffffff;
+    border: 2px solid transparent;
+    /* Transparent border for clean edges */
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    /* Slightly bolder font for emphasis */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* Slight spacing between letters for a modern touch */
+    cursor: pointer;
+    border-radius: 30px;
+    /* Rounded edges for a modern, sleek look */
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+/* Hover effect */
+.cta-button:hover {
+    background-color: #060400;
+    /* Darker green on hover */
+    color: #f1f1f1;
+    border-color: #f39d1200;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    /* Slightly stronger shadow on hover */
+}
+
+/* Adding an underline animation on hover */
+.cta-button:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    /* White underline */
+    transition: width 0.3s ease;
+}
+
+/* Active (clicked) effect */
+.cta-button:active {
+    transform: scale(0.98);
+    /* Slight shrink on click */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    /* Slight shadow on click */
+}
+
+/* Optional: Fade effect for text */
+.cta-button span {
+    position: relative;
+    z-index: 1;
+    transition: opacity 0.3s ease;
+}
+
+.cta-button:hover span {
+    opacity: 0.8;
+    /* Slight fade effect on hover */
+}
+
+
+.aboutText {
+    font-size: 18px;
+    max-width: 800px;
+    /* Limits the width of the text */
+    margin: 0 auto;
+    /* Centers the text block */
+    padding: 20px;
+    /* Adds space around the text */
+    line-height: 1.6;
+    /* Increases line height for better readability */
+    text-align: justify;
+    /* Justifies the text */
+}
+
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+    /* Darker section background */
+    text-align: center;
+    color: #e0e0e0;
+    border-top: 1px solid #333;
+}
+
+/* Event Highlights Section */
+.highlights-section {
+    padding: 50px 20px;
+    background-color: #121212;
+    text-align: center;
+    color: #ffffff;
+}
+
+.highlights-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Styling for each highlight card */
+.highlight-card {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Image inside the highlight card */
+.highlight-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+/* On hover, slightly zoom in the image */
+.highlight-card:hover .highlight-image {
+    transform: scale(1.05);
+}
+
+/* Add some padding to the text to make it more readable */
+.highlight-card h3,
+.highlight-card p {
+    margin: 10px 0;
+}
+
+/* Adjustments for responsive design */
+@media (max-width: 768px) {
+    .highlight-card {
+        width: 100%;
+    }
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+    text-align: center;
+    color: #ffffff;
+}
+
+.testimonial {
+    margin: 10px auto;
+    width: 80%;
+    font-style: italic;
+    color: #e0e0e0;
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 50px 20px;
+    background-color: #121212;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.faq-item h3 {
+    color: #ffffff;
+}
+
+.faq-item p {
+    color: #bbbbbb;
+}
+
+/* Sponsors Section */
+.sponsors-section {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sponsors-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sponsor-logo {
+    max-width: 100px;
+    margin: 10px;
+    filter: brightness(80%);
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #121212;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1e88e5;
+}
+
+.social-links a:hover {
+    color: #1565c0;
+}
+
+/* Footer */
+.footer {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.footer a {
+    color: #1e88e5;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #1565c0;
+}
+
+/* Animation styles */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease-out;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slide-in-left {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 0.8s ease-out;
+}
+
+.slide-in-left.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.zoom-in {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 0.8s ease-out;
+}
+
+.zoom-in.show {
+    opacity: 1;
+    transform: scale(1);
+}
