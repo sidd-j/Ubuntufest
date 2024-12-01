@@ -4,20 +4,7 @@ import '../src/layout.css';
 
 const Layout = ({ children }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [isAuthenticated, setIsAuthenticated] = useState(false);
-    const [userInfo, setUserInfo] = useState(null);
-    const navigate = useNavigate();
 
-    useEffect(() => {
-        const token = localStorage.getItem('jwtToken');
-        if (token) {
-            setIsAuthenticated(true);
-            const decodedToken = JSON.parse(atob(token.split('.')[1]));
-            setUserInfo(decodedToken);
-        } else {
-            setIsAuthenticated(false);
-        }
-    }, []);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -51,17 +38,9 @@ const Layout = ({ children }) => {
                     <li><Link to="/Ubuntufest/gallery" className="nav-link">GALLERY</Link></li>
                     <li><Link to="/Ubuntufest/events" className="nav-link">EVENTS</Link></li>
                     <li><Link to="/Ubuntufest/schedule" className="nav-link">SCHEDULE</Link></li>
-                    {isAuthenticated ? (
-                        <>
-                            <li><Link to="/Ubuntufest/EventRegistrationPage" className="nav-link">Event Register Page</Link></li>
-                            <li><Link to="/Ubuntufest/profile" className="nav-link">PROFILE</Link></li>
-                        </>
-                    ) : (
-                        <>
-                            <li><Link to="/Ubuntufest/registration" className="nav-link">REGISTER</Link></li>
-                            <li><Link to="/Ubuntufest/login" className="nav-link">LOGIN</Link></li>
-                        </>
-                    )}
+                    <li><Link to="/Ubuntufest/EventRegistrationPage" className="nav-link">Event Register Page</Link></li>
+
+
                 </ul>
             </nav>
 

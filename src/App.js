@@ -8,6 +8,9 @@ import Events from './Pages/Page/Events';
 import Schedule from './Pages/Page/Schedule';
 import ProfilePage from './Pages/Page/ProfilePage';
 import EventRegistrationPage from './Pages/Page/EventRegisterPage';
+import SplineR from './Pages/Page/SplineViewer';
+
+
 
 
 function App() {

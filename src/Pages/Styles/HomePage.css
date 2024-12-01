@@ -1,19 +1,18 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #121212;
-    /* Dark background */
     color: #e0e0e0;
-    /* Light text color */
+    line-height: 1.6;
+    /* Improved readability with increased line height */
 }
 
 /* Hero Section */
 .hero-section {
     position: relative;
-    background: url('/Ubuntufest/MainImage.jpg') center center/cover no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -21,63 +20,76 @@ body {
     text-align: center;
     color: #ffffff;
     background-attachment: fixed;
-    /* This creates the basic parallax effect */
-    background-position: center;
-    background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Hero Section Overlay */
+.hero-section .content {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    font-size: 2rem;
+    /* Increased font size for better visibility */
+    font-weight: 700;
+    /* Bolder text for emphasis */
+}
+
 .hero-section .overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    /* Dark overlay */
+    background: rgba(0, 0, 0, 0.3);
+    /* Slightly stronger overlay */
+    z-index: 5;
+}
+
+/* Styling for Spline Component */
+.spline-viewer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
 /* Hero Section Content */
 .hero-section .content {
     position: relative;
     z-index: 2;
+    max-width: 80%;
 }
 
 /* Call to Action Button */
 .cta-button {
     background-color: #f39c12;
-    /* A professional green */
     color: #ffffff;
     border: 2px solid transparent;
-    /* Transparent border for clean edges */
     padding: 12px 30px;
     font-size: 16px;
     font-weight: 600;
-    /* Slightly bolder font for emphasis */
     text-transform: uppercase;
     letter-spacing: 1px;
-    /* Slight spacing between letters for a modern touch */
     cursor: pointer;
     border-radius: 30px;
-    /* Rounded edges for a modern, sleek look */
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow for depth */
 }
 
 /* Hover effect */
 .cta-button:hover {
     background-color: #060400;
-    /* Darker green on hover */
     color: #f1f1f1;
     border-color: #f39d1200;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    /* Slightly stronger shadow on hover */
 }
 
-/* Adding an underline animation on hover */
+/* Add an underline animation on hover */
 .cta-button:hover::after {
     content: '';
     position: absolute;
@@ -87,54 +99,32 @@ body {
     width: 100%;
     height: 2px;
     background-color: #ffffff;
-    /* White underline */
     transition: width 0.3s ease;
 }
 
 /* Active (clicked) effect */
 .cta-button:active {
     transform: scale(0.98);
-    /* Slight shrink on click */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    /* Slight shadow on click */
 }
-
-/* Optional: Fade effect for text */
-.cta-button span {
-    position: relative;
-    z-index: 1;
-    transition: opacity 0.3s ease;
-}
-
-.cta-button:hover span {
-    opacity: 0.8;
-    /* Slight fade effect on hover */
-}
-
-
-.aboutText {
-    font-size: 18px;
-    max-width: 800px;
-    /* Limits the width of the text */
-    margin: 0 auto;
-    /* Centers the text block */
-    padding: 20px;
-    /* Adds space around the text */
-    line-height: 1.6;
-    /* Increases line height for better readability */
-    text-align: justify;
-    /* Justifies the text */
-}
-
 
 /* About Section */
 .about-section {
     padding: 50px 20px;
     background-color: #1e1e1e;
-    /* Darker section background */
     text-align: center;
     color: #e0e0e0;
     border-top: 1px solid #333;
+    font-size: 1.2rem;
+}
+
+.aboutText {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.8;
+    text-align: justify;
 }
 
 /* Event Highlights Section */
@@ -162,26 +152,24 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     position: relative;
     overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
-/* Image inside the highlight card */
+/* Hover effect for the card */
+.highlight-card:hover {
+    transform: translateY(-10px);
+    /* Slight lift effect */
+}
+
 .highlight-image {
     width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
-    transition: transform 0.3s ease;
 }
 
-/* On hover, slightly zoom in the image */
 .highlight-card:hover .highlight-image {
     transform: scale(1.05);
-}
-
-/* Add some padding to the text to make it more readable */
-.highlight-card h3,
-.highlight-card p {
-    margin: 10px 0;
 }
 
 /* Adjustments for responsive design */

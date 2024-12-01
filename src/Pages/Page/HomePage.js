@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../Styles/HomePage.css';
 import Layout from '../../layout';
+import SplineComponent from '../Page/SplineViewer'; // Import the Spline component
 
 const HomePage = () => {
     useEffect(() => {
@@ -36,15 +37,12 @@ const HomePage = () => {
             <div className="landing-page">
                 {/* Hero Section */}
                 <header className="hero-section">
-                    <div className="overlay"></div>
-                    <div className="content fade-in">
-                        <h1>Ubuntu 2024</h1>
-
-                        <p>Get ready to groove, sing, dance, and celebrate the ultimate intercollege cultural extravaganza!</p>
-                        <Link to="/events">
-                            <button className="cta-button">Explore Events</button>
-                        </Link>
+                    {/* Spline Component placed behind the content */}
+                    <div className="spline-viewer">
+                        <SplineComponent /> {/* Spline 3D Scene */}
                     </div>
+
+
                 </header>
 
                 {/* About Section */}
@@ -60,7 +58,6 @@ const HomePage = () => {
                     </div>
                 </section>
 
-
                 {/* Event Highlights Section */}
                 <section className="highlights-section">
                     <h2 className="slide-in-left">Event Highlights</h2>
@@ -70,32 +67,15 @@ const HomePage = () => {
                             <p>Solo and Group performances. A must-attend for music lovers!</p>
                         </div>
                         <div className="highlight-card zoom-in">
-                            <h3>Naadbrahma (Instrumental)</h3>
-                            <p>Solo and Group instrumental performances. A treat for music enthusiasts!</p>
+                            <h3>Dance Battle</h3>
+                            <p>Watch electrifying dance battles that will leave you amazed.</p>
                         </div>
                         <div className="highlight-card zoom-in">
-                            <h3>BGMI (Battlegrounds Mobile India)</h3>
-                            <p>Join the online gaming battle for glory!</p>
+                            <h3>Art and Craft</h3>
+                            <p>Unleash your creativity in our interactive art workshops.</p>
                         </div>
-                        <div className="highlight-card zoom-in">
-                            <h3>Photography</h3>
-                            <p>Capture the essence of the event with your camera skills!</p>
-                        </div>
-                        <div className="highlight-card zoom-in">
-                            <h3>Timeless Beauty (Face Beauty)</h3>
-                            <p>A beauty pageant that celebrates charm and grace!</p>
-                        </div>
-                        <div className="highlight-card zoom-in">
-                            <h3>Fashion Show (Retro Runway)</h3>
-                            <p>Glamour and retro style take the stage!</p>
-                        </div>
-
-
                     </div>
                 </section>
-
-
-
 
                 {/* FAQ Section */}
                 <section className="faq-section slide-in-left">
@@ -104,21 +84,19 @@ const HomePage = () => {
                         <div className="faq-item">
                             <h3>How can I register?</h3>
                             <p>For event registrations, we have separate Google Forms for in-house and out-house participants:</p>
-
                         </div>
                         <div className="faq-item">
-                            <h3>Where is the fest happening?</h3>
-                            <p>Ubuntu Fest will be hosted on our college campus at the main grounds.</p>
+                            <h3>Where is the event held?</h3>
+                            <p>The Ubuntu fest is hosted annually at Patkar-Varde College in the heart of Mumbai, India.</p>
                         </div>
                         <div className="faq-item">
-                            <h3>What will be happening at the event?</h3>
-                            <p>Please check out the Event Page for detailed information on all the exciting events and activities happening at Ubuntu Fest!</p>
+                            <h3>Can I participate remotely?</h3>
+                            <p>Yes! Some events may be available for virtual participation. Please check the event page for more details.</p>
                         </div>
                     </div>
                 </section>
-
-            </div >
-        </Layout >
+            </div>
+        </Layout>
     );
 };
 

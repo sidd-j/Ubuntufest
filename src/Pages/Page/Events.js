@@ -20,7 +20,7 @@ const EventPage = () => {
 
     const handleRegister = () => {
         if (selectedEvent) {
-            navigate(`/EventRegistrationPage`, { state: selectedEvent });
+            navigate(`/Ubuntufest/EventRegistrationPage`, { state: selectedEvent });
         }
     };
 
