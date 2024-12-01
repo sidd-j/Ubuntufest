@@ -41,7 +41,7 @@ const SplineComponent = () => {
             <div className="content-overlay">
                 <h1>Ubuntu 2024</h1>
                 <p>
-                    Get ready to groove, sing, dance, and celebrate the ultimate intercollege cultural
+                    Get ready to  celebrate the ultimate intercollege cultural
                     extravaganza!
                 </p>
                 <Link to="/Ubuntufest/events">

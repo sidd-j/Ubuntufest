@@ -186,6 +186,17 @@
     .footer-section.social-media {
         justify-content: center;
     }
+
+    .hamburger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 10%;
+        margin: 1%;
+        z-index: 1;
+    }
 }
 
 
