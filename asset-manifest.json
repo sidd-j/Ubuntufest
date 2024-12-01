@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Ubuntufest/static/css/main.dd33decd.chunk.css",
+    "main.js": "/Ubuntufest/static/js/main.f6b8e140.chunk.js",
+    "main.js.map": "/Ubuntufest/static/js/main.f6b8e140.chunk.js.map",
+    "runtime-main.js": "/Ubuntufest/static/js/runtime-main.9184ae78.js",
+    "runtime-main.js.map": "/Ubuntufest/static/js/runtime-main.9184ae78.js.map",
+    "static/js/2.52e1c61b.chunk.js": "/Ubuntufest/static/js/2.52e1c61b.chunk.js",
+    "static/js/2.52e1c61b.chunk.js.map": "/Ubuntufest/static/js/2.52e1c61b.chunk.js.map",
+    "static/js/3.c693d707.chunk.js": "/Ubuntufest/static/js/3.c693d707.chunk.js",
+    "static/js/3.c693d707.chunk.js.map": "/Ubuntufest/static/js/3.c693d707.chunk.js.map",
+    "index.html": "/Ubuntufest/index.html",
+    "precache-manifest.25f47efab1a250c6513522dff9dd4639.js": "/Ubuntufest/precache-manifest.25f47efab1a250c6513522dff9dd4639.js",
+    "service-worker.js": "/Ubuntufest/service-worker.js",
+    "static/css/main.dd33decd.chunk.css.map": "/Ubuntufest/static/css/main.dd33decd.chunk.css.map",
+    "static/js/2.52e1c61b.chunk.js.LICENSE.txt": "/Ubuntufest/static/js/2.52e1c61b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9184ae78.js",
+    "static/js/2.52e1c61b.chunk.js",
+    "static/css/main.dd33decd.chunk.css",
+    "static/js/main.f6b8e140.chunk.js"
+  ]
+}
