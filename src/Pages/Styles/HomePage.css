@@ -13,7 +13,7 @@ body {
 /* Hero Section */
 .hero-section {
     position: relative;
-    background: url('/MainImage.jpg') center center/cover no-repeat;
+    background: url('/Ubuntufest/MainImage.jpg') center center/cover no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;

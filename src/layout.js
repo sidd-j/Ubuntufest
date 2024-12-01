@@ -44,22 +44,22 @@ const Layout = ({ children }) => {
 
                     <div className="logo">
                         <Link to="/">
-                            <img src="/UbuntuLogo.png" alt="Ubuntu Fest Logo" className="logo-img" />
+                            <img src="/Ubuntufest/UbuntuLogo.png" alt="Ubuntu Fest Logo" className="logo-img" />
                         </Link>
                     </div>
-                    <li><Link to="/" className="nav-link">HOME</Link></li>
-                    <li><Link to="/gallery" className="nav-link">GALLERY</Link></li>
-                    <li><Link to="/events" className="nav-link">EVENTS</Link></li>
-                    <li><Link to="/schedule" className="nav-link">SCHEDULE</Link></li>
+                    <li><Link to="/Ubuntufest" className="nav-link">HOME</Link></li>
+                    <li><Link to="/Ubuntufest/gallery" className="nav-link">GALLERY</Link></li>
+                    <li><Link to="/Ubuntufest/events" className="nav-link">EVENTS</Link></li>
+                    <li><Link to="/Ubuntufest/schedule" className="nav-link">SCHEDULE</Link></li>
                     {isAuthenticated ? (
                         <>
-                            <li><Link to="/EventRegistrationPage" className="nav-link">Event Register Page</Link></li>
-                            <li><Link to="/profile" className="nav-link">PROFILE</Link></li>
+                            <li><Link to="/Ubuntufest/EventRegistrationPage" className="nav-link">Event Register Page</Link></li>
+                            <li><Link to="/Ubuntufest/profile" className="nav-link">PROFILE</Link></li>
                         </>
                     ) : (
                         <>
-                            <li><Link to="/registration" className="nav-link">REGISTER</Link></li>
-                            <li><Link to="/login" className="nav-link">LOGIN</Link></li>
+                            <li><Link to="/Ubuntufest/registration" className="nav-link">REGISTER</Link></li>
+                            <li><Link to="/Ubuntufest/login" className="nav-link">LOGIN</Link></li>
                         </>
                     )}
                 </ul>
@@ -84,13 +84,13 @@ const Layout = ({ children }) => {
                     <div class="footer-section social-media">
                         <h3>Follow Us</h3>
                         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                            <img src="/Instagram.png" alt="Instagram" />
+                            <img src="/Ubuntufest/Instagram.png" alt="Instagram" />
                         </a>
                         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                            <img src="/facebook.png" alt="Facebook" />
+                            <img src="/Ubuntufest/facebook.png" alt="Facebook" />
                         </a>
                         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                            <img src="/linkedin.png" alt="LinkedIn" />
+                            <img src="/Ubuntufest/linkedin.png" alt="LinkedIn" />
                         </a>
                     </div>
                 </div>
