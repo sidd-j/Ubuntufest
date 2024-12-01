@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
 
 
                     <div className="logo">
-                        <Link to="/">
+                        <Link to="/Ubuntufest">
                             <img src="/Ubuntufest/UbuntuLogo.png" alt="Ubuntu Fest Logo" className="logo-img" />
                         </Link>
                     </div>
