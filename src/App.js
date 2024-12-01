@@ -14,15 +14,14 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/EventRegistrationPage" element={<EventRegistrationPage />} />
-
-        <Route path="/schedule" element={<Schedule />} />
-        <Route path="/registration" element={<RegistrationPage />} />
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/Ubuntufest" element={<HomePage />} />
+        <Route path="/Ubuntufest/gallery" element={<Gallery />} />
+        <Route path="/Ubuntufest/profile" element={<ProfilePage />} />
+        <Route path="/Ubuntufest/events" element={<Events />} />
+        <Route path="/Ubuntufest/EventRegistrationPage" element={<EventRegistrationPage />} />
+        <Route path="/Ubuntufest/schedule" element={<Schedule />} />
+        <Route path="/Ubuntufest/registration" element={<RegistrationPage />} />
+        <Route path="/Ubuntufest/login" element={<LoginPage />} />
       </Routes>
     </Router>
   );
