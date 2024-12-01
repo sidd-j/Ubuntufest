@@ -6,6 +6,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    height: fit-content;
     z-index: 1000;
     display: flex;
     justify-content: center;
@@ -241,12 +242,12 @@
 .logo {
     position: absolute;
     top: 10px;
-    left: 20px;
+    left: 0px;
     z-index: 2;
 }
 
 .logo-img {
-    width: 120px;
+    width: 90px;
     /* Adjust the size of the logo */
     height: auto;
 }
@@ -292,7 +293,7 @@
         height: 100%;
         position: fixed;
         top: 0;
-        left: -450px;
+        left: -456px;
         background-color: #000;
         padding-top: 60px;
         transition: left 0.3s ease-in-out;
@@ -309,6 +310,8 @@
         left: 0;
         /* Slide in the menu when it's active */
     }
+
+
 
     .nav-link {
         text-decoration: none;
@@ -332,9 +335,12 @@
 
     .hamburger {
         display: flex;
+        right: 15%;
+        top: 15%;
     }
 
     .navbar {
         justify-content: space-between;
+        height: 2%;
     }
 }
