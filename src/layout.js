@@ -53,6 +53,9 @@ const Layout = ({ children }) => {
                         <Link to="/Ubuntufest/gallery" className="nav-link">GALLERY</Link>
                     </li>
                     <li>
+                        <Link to="/Ubuntufest/our-team" className="nav-link">Our Team</Link>
+                    </li>
+                    <li>
                         <Link to="/Ubuntufest/events" className="nav-link">EVENTS</Link>
                     </li>
                     <li>

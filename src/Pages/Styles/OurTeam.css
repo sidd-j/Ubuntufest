@@ -1,0 +1,138 @@
+/* General Container */
+.ourTeam-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  background-color: #121212;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+/* Bottom Section (Grid Layout for Two Groups per Row) */
+.ourTeam-bottomSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns: one for left and one for right */
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+/* Group Styling */
+.ourTeam-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 2px solid #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Group Heading */
+.ourTeam-groupHeading {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ffa500;
+}
+
+
+.ourTeam-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.ourTeam-name {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Top Row Styling */
+.top_row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Pair Styling */
+.ourTeam-pair {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Image Styling */
+.ourTeam-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #ffa500;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.ourTeam-image-top {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 2px solid #ffa500;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.ourTeam-image:hover {
+  transform: scale(1.1);
+}
+.ourTeam-image-top:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .ourTeam-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .ourTeam-group {
+    padding: 15px;
+  }
+
+  .ourTeam-groupHeading {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ourTeam-pair {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .ourTeam-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ourTeam-bottomSection {
+    grid-template-columns: 1fr; /* Single group per row on small screens */
+  }
+
+  .ourTeam-groupHeading {
+    font-size: 1.2rem;
+  }
+
+  .ourTeam-image, .ourTeam-image-top {
+    width: 80px;
+    height: 80px;
+  }
+}
