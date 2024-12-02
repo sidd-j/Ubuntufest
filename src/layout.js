@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
                 {/* Navigation Links */}
                 <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
                     <div className="logo">
-                        <Link to="/Ubuntufest">
+                        <Link to="/">
                             <img
                                 src="/Ubuntufest/UbuntuLogo.png"
                                 alt="Ubuntu Fest Logo"

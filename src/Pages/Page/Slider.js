@@ -1,90 +1,56 @@
-import React, { useState } from "react";
-import "../Styles/GalleryPage.css"; // Ensure styles are correctly linked
+import React, { useState, useEffect } from "react";
+import { useSwipeable } from "react-swipeable"; // For swipe functionality
+import "../Styles/Slider.css"; // Ensure styles are correctly linked
 
-const Slider = () => {
-    const [selectedSlide, setSelectedSlide] = useState(3);
+const Slider = ({ images }) => {
+    // Array of image paths
+
+    const totalSlides = images.length; // Dynamically get the total slides
+    const [selectedSlide, setSelectedSlide] = useState(1); // Default to the first image
+
+    // Automatically cycle through slides
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setSelectedSlide((prevSlide) => (prevSlide % totalSlides) + 1); // Loop back to the first slide
+        }, 3000); // Slide every 3 seconds
+        return () => clearInterval(interval); // Cleanup on unmount
+    }, [totalSlides]);
+
+    // Handle swipe gestures
+    const swipeHandlers = useSwipeable({
+        onSwipedLeft: () => setSelectedSlide((prevSlide) => (prevSlide % totalSlides) + 1),
+        onSwipedRight: () => setSelectedSlide((prevSlide) => (prevSlide - 2 + totalSlides) % totalSlides + 1),
+    });
 
     const handleSlideChange = (e) => {
         setSelectedSlide(Number(e.target.value));
     };
 
     return (
-        <section id="slider">
-            <input
-                type="radio"
-                name="slider"
-                id="s1"
-                value={1}
-                checked={selectedSlide === 1}
-                onChange={handleSlideChange}
-            />
-            <input
-                type="radio"
-                name="slider"
-                id="s2"
-                value={2}
-                checked={selectedSlide === 2}
-                onChange={handleSlideChange}
-            />
-            <input
-                type="radio"
-                name="slider"
-                id="s3"
-                value={3}
-                checked={selectedSlide === 3}
-                onChange={handleSlideChange}
-            />
-            <input
-                type="radio"
-                name="slider"
-                id="s4"
-                value={4}
-                checked={selectedSlide === 4}
-                onChange={handleSlideChange}
-            />
-            <input
-                type="radio"
-                name="slider"
-                id="s5"
-                value={5}
-                checked={selectedSlide === 5}
-                onChange={handleSlideChange}
-            />
-            <label htmlFor="s1" id="slide1">
-                <img
-                    src="https://via.placeholder.com/1200x800?text=Nature+1"
-                    alt="Nature 1"
-                    className="slider-image"
+        <section id="slider" {...swipeHandlers}>
+            {/* Radio buttons for each slide */}
+            {images.map((_, index) => (
+                <input
+                    key={`radio-${index + 1}`}
+                    type="radio"
+                    name="slider"
+                    id={`s${index + 1}`}
+                    value={index + 1}
+                    checked={selectedSlide === index + 1}
+                    onChange={handleSlideChange}
                 />
-            </label>
-            <label htmlFor="s2" id="slide2">
-                <img
-                    src="https://via.placeholder.com/1200x800?text=Nature+2"
-                    alt="Nature 2"
-                    className="slider-image"
-                />
-            </label>
-            <label htmlFor="s3" id="slide3">
-                <img
-                    src="https://via.placeholder.com/1200x800?text=Nature+3"
-                    alt="Nature 3"
-                    className="slider-image"
-                />
-            </label>
-            <label htmlFor="s4" id="slide4">
-                <img
-                    src="https://via.placeholder.com/1200x800?text=Nature+4"
-                    alt="Nature 4"
-                    className="slider-image"
-                />
-            </label>
-            <label htmlFor="s5" id="slide5">
-                <img
-                    src="https://via.placeholder.com/1200x800?text=Nature+5"
-                    alt="Nature 5"
-                    className="slider-image"
-                />
-            </label>
+            ))}
+
+            {/* Render labels for slides */}
+            {images.map((img, index) => (
+                <label htmlFor={`s${index + 1}`} id={`slide${index + 1}`} key={`slide-${index + 1}`}>
+                    <img
+                        src={img}
+                        alt={`Slide ${index + 1}`}
+                        className={`slider-image ${selectedSlide === index + 1 ? "active" : ""}`}
+                    />
+                </label>
+            ))}
         </section>
     );
 };

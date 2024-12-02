@@ -1,0 +1,200 @@
+/* GalleryPage.css */
+
+
+/* Ensure the body takes full height and adds necessary spacing */
+body {
+    padding: 20px;
+    background: #000000;
+    user-select: none;
+    margin: 0;
+    height: 100vh;
+    /* Full height */
+}
+
+/* Gallery container styles */
+.gallery-page {
+    padding: 20px;
+    background: #000000;
+    user-select: none;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Stack containers vertically */
+    align-items: center;
+    /* Center containers horizontally */
+    justify-content: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    /* Arrange images horizontally in the slider */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* Adjust the width of the slider container */
+    margin-bottom: 20px;
+    /* Add space between rows */
+}
+
+[type="radio"] {
+    display: none;
+}
+
+#slider {
+
+    position: relative;
+    height: 60vh;
+    /* Adjust height as needed */
+    width: 100%;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    border-radius: 8px;
+}
+
+#slider label {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+#slider label img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#s1:checked~#slide4,
+#s2:checked~#slide5,
+#s3:checked~#slide1,
+#s4:checked~#slide2,
+#s5:checked~#slide3 #s6:checked~#slide6 {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+    transform: translate3d(-30%, 0, -200px);
+}
+
+#s1:checked~#slide5,
+#s2:checked~#slide1,
+#s3:checked~#slide2,
+#s4:checked~#slide3,
+#s5:checked~#slide4 {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    transform: translate3d(-15%, 0, -100px);
+}
+
+#s1:checked~#slide1,
+#s2:checked~#slide2,
+#s3:checked~#slide3,
+#s4:checked~#slide4,
+#s5:checked~#slide5 {
+    box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3), 0 11px 7px 0 rgba(0, 0, 0, 0.19);
+    transform: translate3d(0, 0, 0);
+}
+
+#s1:checked~#slide2,
+#s2:checked~#slide3,
+#s3:checked~#slide4,
+#s4:checked~#slide5,
+#s5:checked~#slide1 {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    transform: translate3d(15%, 0, -100px);
+}
+
+#s1:checked~#slide3,
+#s2:checked~#slide4,
+#s3:checked~#slide5,
+#s4:checked~#slide1,
+#s5:checked~#slide2 {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+    transform: translate3d(30%, 0, -200px);
+}
+
+#slide1 {
+    background: #00BCD4;
+}
+
+#slide2 {
+    background: #4CAF50;
+}
+
+#slide3 {
+    background: #CDDC39;
+}
+
+#slide4 {
+    background: #FFC107;
+}
+
+#slide5 {
+    background: #FF5722;
+}
+
+
+
+.gallery-page {
+    padding: 20px;
+    background: #000000;
+    user-select: none;
+    height: 100vh;
+    /* Ensure the body takes full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* Adjust the width to your preference */
+    max-width: 900px;
+    /* Optional, to prevent it from becoming too large */
+}
+
+/* GalleryPage.css */
+.slider-image {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.slider-image.active {
+    opacity: 1;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #slider {
+        height: 50vh;
+        /* Reduce height for smaller screens */
+    }
+
+    #slider label img {
+        object-fit: cover;
+    }
+
+    .gallery-container {
+        width: 90%;
+        /* Increase width for mobile devices */
+    }
+}
+
+@media (max-width: 480px) {
+    #slider {
+        height: 40vh;
+        /* Further reduce height for very small screens */
+    }
+
+    .gallery-container {
+        width: 100%;
+        /* Full width on smaller screens */
+    }
+}

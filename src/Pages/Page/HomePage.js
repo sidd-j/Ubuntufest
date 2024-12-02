@@ -3,9 +3,19 @@ import { Link } from 'react-router-dom';
 import '../Styles/HomePage.css';
 import Layout from '../../layout';
 import SplineComponent from '../Page/SplineViewer'; // Import the Spline component
+import Slider from "./Slider";
 
 const HomePage = () => {
+    const images = [
+        "/Ubuntufest/Gallery/G6.png", // Ensure these paths are correct
+        "/Ubuntufest/Gallery/G7.png",
+        "/Ubuntufest/Gallery/G8.png",
+        "/Ubuntufest/Gallery/G4.png",
+        "/Ubuntufest/Gallery/G5.png"
+    ];
+
     useEffect(() => {
+
         const elements = document.querySelectorAll('.fade-in, .slide-in-left, .zoom-in');
 
         const observer = new IntersectionObserver((entries) => {
@@ -33,7 +43,9 @@ const HomePage = () => {
     }, []);
 
     return (
+
         <Layout>
+
             <div className="landing-page">
                 {/* Hero Section */}
                 <header className="hero-section">
@@ -73,6 +85,17 @@ const HomePage = () => {
                         <div className="highlight-card zoom-in">
                             <h3>Art and Craft</h3>
                             <p>Unleash your creativity in our interactive art workshops.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+
+                    <div className="gallery-page">
+                        <h2>Gallery</h2>
+
+                        <div className="gallery-container">
+                            {/* Pass the images array as a prop to the Slider component */}
+                            <Slider images={images} />
                         </div>
                     </div>
                 </section>
