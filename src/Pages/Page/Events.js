@@ -35,14 +35,14 @@ const EventPage = () => {
     const handleInHouseRegister = () => {
         if (selectedEvent) {
             // Handle In-House registration logic
-            navigate(`/Ubuntufest/InHouseRegistrationPage`, { state: selectedEvent });
+            navigate(`/InHouseRegistrationPage`, { state: selectedEvent });
         }
     };
 
     const handleOutHouseRegister = () => {
         if (selectedEvent) {
             // Handle Out-House registration logic
-            navigate(`/Ubuntufest/OutHouseRegistrationPage`, { state: selectedEvent });
+            navigate(`/OutHouseRegistrationPage`, { state: selectedEvent });
         }
     };
 

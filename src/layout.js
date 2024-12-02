@@ -47,22 +47,22 @@ const Layout = ({ children }) => {
                         </Link>
                     </div>
                     <li>
-                        <Link to="/Ubuntufest" className="nav-link">HOME</Link>
+                        <Link to="/" className="nav-link">HOME</Link>
                     </li>
                     <li>
-                        <Link to="/Ubuntufest/gallery" className="nav-link">GALLERY</Link>
+                        <Link to="/gallery" className="nav-link">GALLERY</Link>
                     </li>
                     <li>
-                        <Link to="/Ubuntufest/our-team" className="nav-link">Our Team</Link>
+                        <Link to="/our-team" className="nav-link">Our Team</Link>
                     </li>
                     <li>
-                        <Link to="/Ubuntufest/events" className="nav-link">EVENTS</Link>
+                        <Link to="/events" className="nav-link">EVENTS</Link>
                     </li>
                     <li>
-                        <Link to="/Ubuntufest/schedule" className="nav-link">SCHEDULE</Link>
+                        <Link to="/schedule" className="nav-link">SCHEDULE</Link>
                     </li>
                     <li>
-                        <Link to="/Ubuntufest/EventRegistrationPage" className="nav-link">
+                        <Link to="/EventRegistrationPage" className="nav-link">
                             Event Register
                         </Link>
                     </li>

@@ -16,19 +16,20 @@ import SplineR from './Pages/Page/SplineViewer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Ubuntufest">
       <Routes>
-        <Route path="/Ubuntufest" element={<HomePage />} />
-        <Route path="/Ubuntufest/gallery" element={<Gallery />} />
-        <Route path="/Ubuntufest/our-team" element={<OurTeam />} />
-        <Route path="/Ubuntufest/profile" element={<ProfilePage />} />
-        <Route path="/Ubuntufest/events" element={<Events />} />
-        <Route path="/Ubuntufest/EventRegistrationPage" element={<EventRegistrationPage />} />
-        <Route path="/Ubuntufest/schedule" element={<Schedule />} />
-        <Route path="/Ubuntufest/registration" element={<RegistrationPage />} />
-        <Route path="/Ubuntufest/login" element={<LoginPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="gallery" element={<Gallery />} />
+        <Route path="our-team" element={<OurTeam />} />
+        <Route path="profile" element={<ProfilePage />} />
+        <Route path="events" element={<Events />} />
+        <Route path="EventRegistrationPage" element={<EventRegistrationPage />} />
+        <Route path="schedule" element={<Schedule />} />
+        <Route path="registration" element={<RegistrationPage />} />
+        <Route path="login" element={<LoginPage />} />
       </Routes>
     </Router>
+
   );
 }
 
