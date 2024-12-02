@@ -1,0 +1,236 @@
+[
+    {
+        "name": "Photography",
+        "price": "₹50",
+        "description": "Capture the moments with your photography skills. Participants must submit their photos under a chosen theme. All photos must be original and not edited beyond basic adjustments.",
+        "rules": [
+            "All photos must be original.",
+            "No heavy editing; only basic adjustments are allowed.",
+            "Submit photos under the chosen theme.",
+            "Submissions can be made under Phone Photography or DSLR Photography.",
+            "Online Submission: Upload your photo on Instagram and tag @ubuntu.pvr. Mention your category (Phone/DSLR) in the caption.",
+            "Offline Submission: Submit a hard copy of your photo by 20th Dec (till 11 am). Ensure that your Instagram account name is clearly written on the back of the photo."
+        ]
+    },
+    {
+        "name": "Rangon ki Dastan (Rangoli)",
+        "price": "₹50",
+        "description": "Create beautiful Rangoli designs and showcase your artistry. Designs should be on a 4x4 feet surface. Participants can use colored powders, flowers, or other materials.",
+        "rules": [
+            "Entry Fees: ₹50.",
+            "Per college: 2 entries.",
+            "All Rangoli designs must reflect the vintage theme.",
+            "Participants can depict vintage elements like old cultural symbols, classic motifs, traditional patterns, or retro art from previous eras.",
+            "Participants can compete individually.",
+            "A maximum of 1 hour 30 minutes will be given to each team to complete their Rangoli.",
+            "Participants should bring their own Rangoli materials (e.g., colored powders, flowers, rice, or sand). Some basic materials might be provided by the college if needed.",
+            "Only natural colors and materials (e.g., flowers, organic powders) are encouraged for eco-friendliness.",
+            "No use of toxic materials, paints, or adhesives that might damage surfaces.",
+            "No references are allowed (e.g., mobile phones)."
+        ]
+    },
+    {
+        "name": "Timeless Beauty (Face Beauty)",
+        "price": "₹50",
+        "description": "Display your beauty and makeup skills in this competition. Models and makeup artists can team up. Participants must follow the event’s theme, and models should be prepared for the session.",
+        "rules": [
+            "Participants must strictly adhere to the vintage theme. Makeup looks should be inspired by iconic eras like the 1920s, 1950s, 1970s, 1980s, etc.",
+            "Participants may choose a specific era or blend elements from multiple decades.",
+            "Participants must arrive 30 minutes before the start of the competition for check-in and setup.",
+            "Participants are encouraged to bring their own materials; all makeup products used must be non-toxic and safe for skin.",
+            "Use of references (e.g., mobiles, photographs, stencils) is prohibited."
+        ]
+    },
+    {
+        "name": "Reel it Feel it (Reel Making)",
+        "price": "₹50",
+        "description": "Make a short and creative reel video for the competition. Videos should not exceed 30 seconds. The content should be original, and participants must follow the event theme.",
+        "rules": [
+            "Videos must not exceed 30 seconds.",
+            "Content should be original and follow the event theme.",
+            "The theme will be given on the day of the CL meet.",
+            "Participants must create piracy-free videos and upload them in the reel section on Instagram.",
+            "Tag @ubuntu.pvr and write a suitable caption while posting."
+        ]
+    },
+    {
+        "name": "Mr. and Ms. UBUNTU",
+        "price": "₹50",
+        "description": "Compete for the title of Mr. and Ms. UBUNTU in this pageant. Participants will be judged on personality, talent, and appearance. Participants must prepare a performance, talent, or skill presentation.",
+        "rules": [
+            "Participants must prepare a performance, talent, or skill presentation.",
+            "Judging will be based on personality, talent, and appearance.",
+            "Participants should arrive at least 30 minutes before the event starts.",
+            "Any participant who misbehaves or argues after a warning will be disqualified."
+        ]
+    },
+    {
+        "name": "Fashion Show (Retro Runway)",
+        "price": "₹50",
+        "description": "Show off your fashion style in the retro-themed runway show. Participants should showcase their best vintage outfits. Models must be ready for multiple costume changes during the event.",
+        "rules": [
+            "Models must be ready for multiple costume changes.",
+            "Participants should showcase vintage outfits.",
+            "Judging criteria include creativity, synchronization, and adherence to the theme."
+        ]
+    },
+    {
+        "name": "Dance (Aaja Nachle)",
+        "price": "₹50",
+        "description": "Join the dance competition and groove to the music. Choreography can be performed solo or in groups. Performances should be within 4 minutes, and teams should not exceed 6 members.",
+        "rules": [
+            "Performance time limit: 4 minutes.",
+            "Teams should not exceed 6 members.",
+            "Judging criteria include creativity, synchronization, and energy."
+        ]
+    },
+    {
+        "name": "Online Gaming: Stumble Guys",
+        "price": "₹50",
+        "description": "Compete in the Stumble Guys gaming event. Players must navigate obstacles in a race to the finish. Fair play and no external tools are allowed.",
+        "rules": [
+            "Fair play must be followed.",
+            "No external tools allowed.",
+            "Players must have a stable internet connection."
+        ]
+    },
+    {
+        "name": "Gully Badminton",
+        "price": "₹50",
+        "description": "Play badminton in a unique gully-style competition. The rules are modified for a fun, challenging experience. Players must follow the modified gully rules provided at the start of the match.",
+        "rules": [
+            "Participants should bring their own rackets.",
+            "The shuttlecock will be provided by the college.",
+            "Judges' decisions will be final."
+        ]
+    },
+    {
+        "name": "Nakh Shikant (Nail Art)",
+        "price": "₹50",
+        "description": "Show off your nail art creativity in this competition. Participants must provide their own supplies and models. Designs should be original and not copied.",
+        "rules": [
+            "Nail art must reflect a specific vintage era (e.g., 1920s Art Deco, 1950s Pinup, 1960s Mod, 1970s, 1980s, etc.).",
+            "Participants must provide their own supplies and models.",
+            "Stencils are not allowed.",
+            "Designs should incorporate vintage-inspired elements.",
+            "Use of references (e.g., mobiles, photographs, stencils) is prohibited."
+        ]
+    },
+    {
+        "name": "Photography",
+        "price": "₹50",
+        "description": "Capture the moments with your photography skills. Participants must submit their photos under a chosen theme. All photos must be original and not edited beyond basic adjustments.",
+        "rules": [
+            "All photos must be original.",
+            "No heavy editing; only basic adjustments are allowed.",
+            "Submit photos under the chosen theme.",
+            "Submissions can be made under Phone Photography or DSLR Photography.",
+            "Online Submission: Upload your photo on Instagram and tag @ubuntu.pvr. Mention your category (Phone/DSLR) in the caption.",
+            "Offline Submission: Submit a hard copy of your photo by 20th Dec (till 11 am). Ensure that your Instagram account name is clearly written on the back of the photo."
+        ]
+    },
+    {
+        "name": "Rangon ki Dastan (Rangoli)",
+        "price": "₹50",
+        "description": "Create beautiful Rangoli designs and showcase your artistry. Designs should be on a 4x4 feet surface. Participants can use colored powders, flowers, or other materials.",
+        "rules": [
+            "Entry Fees: ₹50.",
+            "Per college: 2 entries.",
+            "All Rangoli designs must reflect the vintage theme.",
+            "Participants can depict vintage elements like old cultural symbols, classic motifs, traditional patterns, or retro art from previous eras.",
+            "Participants can compete individually.",
+            "A maximum of 1 hour 30 minutes will be given to each team to complete their Rangoli.",
+            "Participants should bring their own Rangoli materials (e.g., colored powders, flowers, rice, or sand). Some basic materials might be provided by the college if needed.",
+            "Only natural colors and materials (e.g., flowers, organic powders) are encouraged for eco-friendliness.",
+            "No use of toxic materials, paints, or adhesives that might damage surfaces.",
+            "No references are allowed (e.g., mobile phones)."
+        ]
+    },
+    {
+        "name": "Timeless Beauty (Face Beauty)",
+        "price": "₹50",
+        "description": "Display your beauty and makeup skills in this competition. Models and makeup artists can team up. Participants must follow the event’s theme, and models should be prepared for the session.",
+        "rules": [
+            "Participants must strictly adhere to the vintage theme. Makeup looks should be inspired by iconic eras like the 1920s, 1950s, 1970s, 1980s, etc.",
+            "Participants may choose a specific era or blend elements from multiple decades.",
+            "Participants must arrive 30 minutes before the start of the competition for check-in and setup.",
+            "Participants are encouraged to bring their own materials; all makeup products used must be non-toxic and safe for skin.",
+            "Use of references (e.g., mobiles, photographs, stencils) is prohibited."
+        ]
+    },
+    {
+        "name": "Reel it Feel it (Reel Making)",
+        "price": "₹50",
+        "description": "Make a short and creative reel video for the competition. Videos should not exceed 30 seconds. The content should be original, and participants must follow the event theme.",
+        "rules": [
+            "Videos must not exceed 30 seconds.",
+            "Content should be original and follow the event theme.",
+            "The theme will be given on the day of the CL meet.",
+            "Participants must create piracy-free videos and upload them in the reel section on Instagram.",
+            "Tag @ubuntu.pvr and write a suitable caption while posting."
+        ]
+    },
+    {
+        "name": "Mr. and Ms. UBUNTU",
+        "price": "₹50",
+        "description": "Compete for the title of Mr. and Ms. UBUNTU in this pageant. Participants will be judged on personality, talent, and appearance. Participants must prepare a performance, talent, or skill presentation.",
+        "rules": [
+            "Participants must prepare a performance, talent, or skill presentation.",
+            "Judging will be based on personality, talent, and appearance.",
+            "Participants should arrive at least 30 minutes before the event starts.",
+            "Any participant who misbehaves or argues after a warning will be disqualified."
+        ]
+    },
+    {
+        "name": "Fashion Show (Retro Runway)",
+        "price": "₹50",
+        "description": "Show off your fashion style in the retro-themed runway show. Participants should showcase their best vintage outfits. Models must be ready for multiple costume changes during the event.",
+        "rules": [
+            "Models must be ready for multiple costume changes.",
+            "Participants should showcase vintage outfits.",
+            "Judging criteria include creativity, synchronization, and adherence to the theme."
+        ]
+    },
+    {
+        "name": "Dance (Aaja Nachle)",
+        "price": "₹50",
+        "description": "Join the dance competition and groove to the music. Choreography can be performed solo or in groups. Performances should be within 4 minutes, and teams should not exceed 6 members.",
+        "rules": [
+            "Performance time limit: 4 minutes.",
+            "Teams should not exceed 6 members.",
+            "Judging criteria include creativity, synchronization, and energy."
+        ]
+    },
+    {
+        "name": "Online Gaming: Stumble Guys",
+        "price": "₹50",
+        "description": "Compete in the Stumble Guys gaming event. Players must navigate obstacles in a race to the finish. Fair play and no external tools are allowed.",
+        "rules": [
+            "Fair play must be followed.",
+            "No external tools allowed.",
+            "Players must have a stable internet connection."
+        ]
+    },
+    {
+        "name": "Gully Badminton",
+        "price": "₹50",
+        "description": "Play badminton in a unique gully-style competition. The rules are modified for a fun, challenging experience. Players must follow the modified gully rules provided at the start of the match.",
+        "rules": [
+            "Participants should bring their own rackets.",
+            "The shuttlecock will be provided by the college.",
+            "Judges' decisions will be final."
+        ]
+    },
+    {
+        "name": "Nakh Shikant (Nail Art)",
+        "price": "₹50",
+        "description": "Show off your nail art creativity in this competition. Participants must provide their own supplies and models. Designs should be original and not copied.",
+        "rules": [
+            "Nail art must reflect a specific vintage era (e.g., 1920s Art Deco, 1950s Pinup, 1960s Mod, 1970s, 1980s, etc.).",
+            "Participants must provide their own supplies and models.",
+            "Stencils are not allowed.",
+            "Designs should incorporate vintage-inspired elements.",
+            "Use of references (e.g., mobiles, photographs, stencils) is prohibited."
+        ]
+    }
+]
