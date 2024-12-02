@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28244727fa87bb18b3133796f8ea5615",
+    "revision": "b0c03e4836c678062d9674abf0535075",
     "url": "/Ubuntufest/index.html"
   },
   {
-    "revision": "a2aa41b2326467dfda4f",
-    "url": "/Ubuntufest/static/css/main.7822d16f.chunk.css"
+    "revision": "ec3ab02bb801fc251bb2",
+    "url": "/Ubuntufest/static/css/main.a853e02a.chunk.css"
   },
   {
-    "revision": "e83fd57f7a0c455b696d",
-    "url": "/Ubuntufest/static/js/2.18c8b772.chunk.js"
+    "revision": "bd40fdccc68bf9d044fa",
+    "url": "/Ubuntufest/static/js/2.6fef177c.chunk.js"
   },
   {
     "revision": "d5624f18a4e9478ce5e9ea2f3cbf2cf9",
-    "url": "/Ubuntufest/static/js/2.18c8b772.chunk.js.LICENSE.txt"
+    "url": "/Ubuntufest/static/js/2.6fef177c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "666e0d8d783ea4129b4f",
-    "url": "/Ubuntufest/static/js/3.6c472865.chunk.js"
+    "revision": "e2159ab2ffbb39cc6be2",
+    "url": "/Ubuntufest/static/js/3.bca90d33.chunk.js"
   },
   {
-    "revision": "a2aa41b2326467dfda4f",
-    "url": "/Ubuntufest/static/js/main.6e4dce51.chunk.js"
+    "revision": "ec3ab02bb801fc251bb2",
+    "url": "/Ubuntufest/static/js/main.eaf58352.chunk.js"
   },
   {
-    "revision": "0ba08cdd9a1025fe3e0b",
-    "url": "/Ubuntufest/static/js/runtime-main.ff7d88fd.js"
+    "revision": "cef477aa313563a8534a",
+    "url": "/Ubuntufest/static/js/runtime-main.bc13c7eb.js"
   },
   {
     "revision": "2e938c6b2f41d0e36c89ac9628e477b6",
@@ -36,12 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ubuntufest/static/media/AshikaShukla.7f913177.jpeg"
   },
   {
-    "revision": "bb9be6245eedcd62e99fd5b630273d59",
-    "url": "/Ubuntufest/static/media/HariOm.bb9be624.jpeg"
+    "revision": "8331bd2dace7288e59c25c3587690530",
+    "url": "/Ubuntufest/static/media/AshikaShukla1.8331bd2d.jpeg"
   },
   {
     "revision": "0bf1cf2ae566bb317bdb543600e8a31b",
     "url": "/Ubuntufest/static/media/KshitijShirke.0bf1cf2a.jpeg"
+  },
+  {
+    "revision": "58139eccd655a3ae88c7876b72a8e85c",
+    "url": "/Ubuntufest/static/media/SachinTiwari.58139ecc.jpeg"
+  },
+  {
+    "revision": "eaf4ba85dd4922a8220a4b6899474e27",
+    "url": "/Ubuntufest/static/media/SarvambhChurmure.eaf4ba85.jpeg"
   },
   {
     "revision": "2cd4cf3679a2c9653d2cae0b979bdbc4",

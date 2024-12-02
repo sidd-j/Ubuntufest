@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/Ubuntufest/static/css/main.7822d16f.chunk.css",
-    "main.js": "/Ubuntufest/static/js/main.6e4dce51.chunk.js",
-    "main.js.map": "/Ubuntufest/static/js/main.6e4dce51.chunk.js.map",
-    "runtime-main.js": "/Ubuntufest/static/js/runtime-main.ff7d88fd.js",
-    "runtime-main.js.map": "/Ubuntufest/static/js/runtime-main.ff7d88fd.js.map",
-    "static/js/2.18c8b772.chunk.js": "/Ubuntufest/static/js/2.18c8b772.chunk.js",
-    "static/js/2.18c8b772.chunk.js.map": "/Ubuntufest/static/js/2.18c8b772.chunk.js.map",
-    "static/js/3.6c472865.chunk.js": "/Ubuntufest/static/js/3.6c472865.chunk.js",
-    "static/js/3.6c472865.chunk.js.map": "/Ubuntufest/static/js/3.6c472865.chunk.js.map",
+    "main.css": "/Ubuntufest/static/css/main.a853e02a.chunk.css",
+    "main.js": "/Ubuntufest/static/js/main.eaf58352.chunk.js",
+    "main.js.map": "/Ubuntufest/static/js/main.eaf58352.chunk.js.map",
+    "runtime-main.js": "/Ubuntufest/static/js/runtime-main.bc13c7eb.js",
+    "runtime-main.js.map": "/Ubuntufest/static/js/runtime-main.bc13c7eb.js.map",
+    "static/js/2.6fef177c.chunk.js": "/Ubuntufest/static/js/2.6fef177c.chunk.js",
+    "static/js/2.6fef177c.chunk.js.map": "/Ubuntufest/static/js/2.6fef177c.chunk.js.map",
+    "static/js/3.bca90d33.chunk.js": "/Ubuntufest/static/js/3.bca90d33.chunk.js",
+    "static/js/3.bca90d33.chunk.js.map": "/Ubuntufest/static/js/3.bca90d33.chunk.js.map",
     "index.html": "/Ubuntufest/index.html",
-    "precache-manifest.3705a31d9fb1c681020d6ccc8f76414c.js": "/Ubuntufest/precache-manifest.3705a31d9fb1c681020d6ccc8f76414c.js",
+    "precache-manifest.9ce311e0381d5d905e2c5d2417dcc656.js": "/Ubuntufest/precache-manifest.9ce311e0381d5d905e2c5d2417dcc656.js",
     "service-worker.js": "/Ubuntufest/service-worker.js",
-    "static/css/main.7822d16f.chunk.css.map": "/Ubuntufest/static/css/main.7822d16f.chunk.css.map",
-    "static/js/2.18c8b772.chunk.js.LICENSE.txt": "/Ubuntufest/static/js/2.18c8b772.chunk.js.LICENSE.txt",
+    "static/css/main.a853e02a.chunk.css.map": "/Ubuntufest/static/css/main.a853e02a.chunk.css.map",
+    "static/js/2.6fef177c.chunk.js.LICENSE.txt": "/Ubuntufest/static/js/2.6fef177c.chunk.js.LICENSE.txt",
     "static/media/AjayPrajapati.jpeg": "/Ubuntufest/static/media/AjayPrajapati.2e938c6b.jpeg",
     "static/media/AshikaShukla.jpeg": "/Ubuntufest/static/media/AshikaShukla.7f913177.jpeg",
-    "static/media/HariOm.jpeg": "/Ubuntufest/static/media/HariOm.bb9be624.jpeg",
+    "static/media/AshikaShukla1.jpeg": "/Ubuntufest/static/media/AshikaShukla1.8331bd2d.jpeg",
     "static/media/KshitijShirke.jpeg": "/Ubuntufest/static/media/KshitijShirke.0bf1cf2a.jpeg",
+    "static/media/SachinTiwari.jpeg": "/Ubuntufest/static/media/SachinTiwari.58139ecc.jpeg",
+    "static/media/SarvambhChurmure.jpeg": "/Ubuntufest/static/media/SarvambhChurmure.eaf4ba85.jpeg",
     "static/media/SharvariManjrekar.jpeg": "/Ubuntufest/static/media/SharvariManjrekar.2cd4cf36.jpeg",
     "static/media/Vaishnavi.jpeg": "/Ubuntufest/static/media/Vaishnavi.5effb016.jpeg",
     "static/media/p1.jpg": "/Ubuntufest/static/media/p1.48723e2a.jpg",
@@ -26,9 +28,9 @@
     "static/media/p3.jpg": "/Ubuntufest/static/media/p3.543d1db0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff7d88fd.js",
-    "static/js/2.18c8b772.chunk.js",
-    "static/css/main.7822d16f.chunk.css",
-    "static/js/main.6e4dce51.chunk.js"
+    "static/js/runtime-main.bc13c7eb.js",
+    "static/js/2.6fef177c.chunk.js",
+    "static/css/main.a853e02a.chunk.css",
+    "static/js/main.eaf58352.chunk.js"
   ]
 }
