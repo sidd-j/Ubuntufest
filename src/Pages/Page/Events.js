@@ -7,9 +7,12 @@ import Layout from '../../layout';
 const events = [
     {
         id: 1, name: 'Suron ki Mehfil (Singing)', price: '₹50', description: 'A mesmerizing singing competition for music lovers. The event will showcase incredible vocal talents from around the region. Participants must adhere to the time limits and themes provided. No offensive language or explicit content allowed. Time limit: 5 minutes.', rules: [
-            "No offensive language or explicit content allowed.",
-            "Time limit: 5 minutes.",
-            "Participants must adhere to the time limits and themes provided."
+            "1.Eligibility: - Open to college students and external participants. - Solo (₹50) or group(₹150, group should consist of 2 - 6 people).",
+            "2. warning bell at 4 minutes.",
+            "3. Song Selection: - Vintage theme('60s, '70s, '80s), any genre.",
+            "4.Respectful Behaviour: No disruptive behaviour or inappropriate content.",
+            "5. Background Music: - Submit tracks on USB or mobile a day before; no personal instruments allowed.",
+            "6.A panel of judges will evaluate performance based on vocal quality,stage presence, and theme."
         ]
     },
     {

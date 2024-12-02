@@ -61,11 +61,7 @@ const Layout = ({ children }) => {
                     <li>
                         <Link to="/schedule" className="nav-link">SCHEDULE</Link>
                     </li>
-                    <li>
-                        <Link to="/EventRegistrationPage" className="nav-link">
-                            Event Register
-                        </Link>
-                    </li>
+
                 </ul>
             </nav>
 

@@ -15,7 +15,8 @@
 /* Bottom Section (Grid Layout for Two Groups per Row) */
 .ourTeam-bottomSection {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns: one for left and one for right */
+  grid-template-columns: repeat(2, 1fr);
+  /* Two columns: one for left and one for right */
   gap: 40px;
   width: 100%;
   max-width: 1200px;
@@ -27,7 +28,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border: 2px solid #f4f4f4;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -39,7 +39,6 @@
   font-size: 1.5rem;
   color: #ffa500;
 }
-
 
 .ourTeam-member {
   display: flex;
@@ -67,21 +66,24 @@
   display: flex;
   gap: 20px;
   justify-content: center;
+  border: none;
+  /* Removed border from pairs */
 }
 
 /* Image Styling */
 .ourTeam-image {
   width: 200px;
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
   border: 2px solid #ffa500;
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
+
 .ourTeam-image-top {
   width: 250px;
   height: 250px;
-  object-fit: cover;
+  object-fit: contain;
   border: 2px solid #ffa500;
   border-radius: 10px;
   transition: transform 0.3s ease;
@@ -90,6 +92,7 @@
 .ourTeam-image:hover {
   transform: scale(1.1);
 }
+
 .ourTeam-image-top:hover {
   transform: scale(1.1);
 }
@@ -97,8 +100,9 @@
 /* Responsive Design */
 @media (max-width: 1024px) {
   .ourTeam-image {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    /* Increased image size on tablets */
+    height: 150px;
   }
 
   .ourTeam-group {
@@ -117,22 +121,26 @@
   }
 
   .ourTeam-image {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    /* Increased image size on small screens */
+    height: 180px;
   }
 }
 
 @media (max-width: 480px) {
   .ourTeam-bottomSection {
-    grid-template-columns: 1fr; /* Single group per row on small screens */
+    grid-template-columns: 1fr;
+    /* Single group per row on small screens */
   }
 
   .ourTeam-groupHeading {
     font-size: 1.2rem;
   }
 
-  .ourTeam-image, .ourTeam-image-top {
-    width: 80px;
-    height: 80px;
+  .ourTeam-image,
+  .ourTeam-image-top {
+    width: 150px;
+    /* Increased image size on very small screens */
+    height: 150px;
   }
 }
