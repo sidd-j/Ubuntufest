@@ -4,6 +4,7 @@ import HomePage from './Pages/Page/HomePage';
 import RegistrationPage from './Pages/Page/RegistrationPage';
 import LoginPage from './Pages/Page/LoginPage';
 import Gallery from './Pages/Page/GalleryPage';
+import OurTeam from './Pages/Page/OurTeam';
 import Events from './Pages/Page/Events';
 import Schedule from './Pages/Page/Schedule';
 import ProfilePage from './Pages/Page/ProfilePage';
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/Ubuntufest" element={<HomePage />} />
         <Route path="/Ubuntufest/gallery" element={<Gallery />} />
+        <Route path="/Ubuntufest/our-team" element={<OurTeam />} />
         <Route path="/Ubuntufest/profile" element={<ProfilePage />} />
         <Route path="/Ubuntufest/events" element={<Events />} />
         <Route path="/Ubuntufest/EventRegistrationPage" element={<EventRegistrationPage />} />
