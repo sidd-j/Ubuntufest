@@ -7,6 +7,9 @@ body {
     background-color: #121212;
     color: #e0e0e0;
     line-height: 1.6;
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling */
+
     /* Improved readability with increased line height */
 }
 
@@ -338,4 +341,94 @@ body {
     /* Optional background for better contrast */
     padding: 8px;
     /* Space around the map */
+}
+
+
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+
+    /* Hero Section */
+    .hero-section .content {
+        font-size: 1.5rem;
+        /* Smaller text for mobile */
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 25px;
+    }
+
+    /* About Section */
+    .about-section {
+        padding: 40px 15px;
+    }
+
+    .aboutText {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    /* Highlights Section */
+    .highlight-card {
+        width: 100%;
+        /* Stacks the cards vertically */
+        margin: 10px 0;
+    }
+
+    .highlight-image {
+        width: 100%;
+    }
+
+    /* Testimonials Section */
+    .testimonial {
+        width: 90%;
+    }
+
+    /* FAQ Section */
+    .faq-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .faq-item p {
+        font-size: 1rem;
+    }
+
+    /* Sponsors Section */
+    .sponsor-logo {
+        max-width: 80px;
+        margin: 10px;
+    }
+
+    /* Footer */
+    .footer {
+        font-size: 0.9rem;
+    }
+}
+
+/* Very small mobile screens */
+@media (max-width: 480px) {
+    .hero-section .content {
+        font-size: 1.2rem;
+        /* Even smaller text on very small screens */
+    }
+
+    .cta-button {
+        font-size: 13px;
+        padding: 8px 15px;
+        border-radius: 20px;
+    }
+
+    /* About Section */
+    .aboutText {
+        font-size: 14px;
+    }
+
+    /* Testimonials Section */
+    .testimonial {
+        font-size: 0.9rem;
+    }
 }

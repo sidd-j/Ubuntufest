@@ -173,6 +173,8 @@ body {
 /* Responsive styles */
 @media (max-width: 768px) {
     #slider {
+        overflow-x: hidden;
+
         height: 50vh;
         /* Reduce height for smaller screens */
     }
@@ -191,9 +193,14 @@ body {
     #slider {
         height: 40vh;
         /* Further reduce height for very small screens */
+        overflow-x: hidden;
+        /* Prevent horizontal scrolling */
+
     }
 
     .gallery-container {
+        overflow-x: hidden;
+
         width: 100%;
         /* Full width on smaller screens */
     }

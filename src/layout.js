@@ -96,7 +96,7 @@ const Layout = ({ children }) => {
                     <div className="footer-section">
                         <h3>
                             <a
-                                href="/events"
+                                href="/Ubuntufest/events"
                                 rel="noopener noreferrer"
                             >
                                 Our Team
