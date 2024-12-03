@@ -131,7 +131,7 @@ const Layout = ({ children }) => {
                 </div>
                 <div className="footer-text">
                     <p>&copy; 2024 Ubuntu Fest. Created by
-                        <a href="www.linkedin.com/in/siddhesh-jadhav-238b5a177" target="_blank" class="hidden-link"> Siddhesh Jadhav </a>
+                        <a href="https://www.linkedin.com/in/siddhesh-jadhav-238b5a177" target="_blank" class="hidden-link"> Siddhesh Jadhav </a>
                         and
                         <a href="https://www.linkedin.com/in/tanamykadam88/" target="_blank" class="hidden-link"> Tanmay Kadam </a>.
                     </p>
