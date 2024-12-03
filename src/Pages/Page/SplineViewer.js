@@ -1,23 +1,26 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import '../Styles/SplineVR.css';
 
 const SplineComponent = () => {
-    useEffect(() => {
-        const script = document.createElement('script');
-        script.type = 'module';
-        script.src = 'https://unpkg.com/@splinetool/viewer@1.9.46/build/spline-viewer.js';
+    const [isMobile, setIsMobile] = useState(false);
 
-        script.onload = () => {
-            console.log('Spline viewer script loaded');
+    useEffect(() => {
+        // Check screen width and update state
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768);
         };
 
-        document.head.appendChild(script);
+        // Set initial state
+        handleResize();
 
-        // Cleanup on component unmount
+        // Add resize event listener
+        window.addEventListener('resize', handleResize);
+
+        // Cleanup event listener
         return () => {
-            document.head.removeChild(script);
+            window.removeEventListener('resize', handleResize);
         };
     }, []);
 
@@ -31,11 +34,19 @@ const SplineComponent = () => {
                 ></script>
             </Helmet>
 
-            {/* Spline viewer tag */}
-            <spline-viewer
-                className="spline-viewer"
-                url="https://prod.spline.design/1JICLJdcdb0wAH2i/scene.splinecode"
-            ></spline-viewer>
+            {/* Conditionally render the Spline viewer or background image based on screen size */}
+            {isMobile ? (
+                <div
+                    className="background-image"
+                    style={{ backgroundImage: 'url(/Ubuntufest/MainImage.jpg)' }}
+                ></div>
+
+            ) : (
+                <spline-viewer
+                    className="spline-viewer"
+                    url="https://prod.spline.design/1JICLJdcdb0wAH2i/scene.splinecode"
+                ></spline-viewer>
+            )}
 
             {/* Content overlay */}
             <div className="content-overlay">
@@ -44,7 +55,7 @@ const SplineComponent = () => {
                     Get ready to  celebrate the ultimate intercollege cultural
                     extravaganza!
                 </p>
-                <Link to="/Ubuntufest/events">
+                <Link to="/events">
                     <button className="cta-button">Explore Events</button>
                 </Link>
             </div>

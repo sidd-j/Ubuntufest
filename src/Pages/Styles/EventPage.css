@@ -165,35 +165,281 @@ body {
     cursor: not-allowed;
 }
 
-/* Responsive Design */
-@media (max-width: 900px) {
-    .event-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
+/* General Container for All Guidelines */
+.registration-guidelines {
+    background-color: #000;
+    /* Black background */
+    color: #ff8c00;
+    /* Vibrant orange text */
+    padding: 40px 30px;
+    /* Larger padding for more space */
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* Soft shadow around the container */
 }
 
+/* Section Title */
+.registration-guidelines .section-title {
+    font-size: 2.5rem;
+    /* Larger font size for section titles */
+    font-weight: bold;
+    margin-bottom: 25px;
+    /* Increased margin for separation */
+    text-align: center;
+    color: #ff8c00;
+    /* Vibrant orange color */
+    letter-spacing: 1px;
+    /* Slight spacing for emphasis */
+}
+
+/* Subheading for Each Section */
+.registration-guidelines .subheading {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 18px;
+    color: #ff8c00;
+    /* Consistent orange color */
+    text-transform: uppercase;
+    /* Added uppercase transformation for emphasis */
+    letter-spacing: 1px;
+}
+
+/* Style for the Lists in Each Section */
+.registration-guidelines ul {
+    list-style-type: none;
+    /* Removed default list numbering */
+    padding-left: 0;
+    margin-bottom: 30px;
+    /* Added bottom margin for space between sections */
+}
+
+.registration-guidelines li {
+
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #f0f0f0;
+    /* Light gray for regular list text */
+}
+
+/* Styling for Important Points in Lists */
+.registration-guidelines li strong {
+    color: #ff8c00;
+    /* Bright orange for important points */
+    font-weight: bold;
+}
+
+/* Background Color for Sections with Subtle Border */
+.registration-guidelines div {
+    background-color: #111;
+    /* Slightly lighter dark background for sections */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    /* Space between different guideline sections */
+    border: 2px solid #333;
+    /* Subtle border for a distinguished look */
+}
+
+
+/* General Styling for How to Fill the Registration Form */
+.how-to-fill-form {
+    background-color: #121212;
+    /* Black background for the section */
+    color: #eeeeee;
+    /* Vibrant orange text for consistency */
+    padding: 40px 30px;
+    /* Padding for spacious layout */
+    border-radius: 12px;
+    /* Rounded corners for the section */
+    max-width: 800px;
+    /* Limit width for better readability */
+    margin: 0 auto;
+    /* Center the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* Soft shadow around the section */
+    font-family: 'Arial', sans-serif;
+    /* Clean sans-serif font */
+}
+
+/* Title Styling */
+.how-to-fill-form h2 {
+    font-size: 2.5rem;
+    /* Larger font size for title */
+    color: #ff8c00;
+    /* Vibrant orange color */
+    font-weight: bold;
+    /* Bold text */
+    margin-bottom: 20px;
+    /* Space below the title */
+    text-align: center;
+    /* Center-align the title */
+    letter-spacing: 1px;
+    /* Slight spacing for emphasis */
+}
+
+/* Paragraph Styling */
+.how-to-fill-form p {
+    font-size: 1.2rem;
+    /* Slightly larger font for readability */
+    margin-bottom: 20px;
+    /* Margin between paragraph and list */
+    text-align: center;
+    /* Center-align the paragraph */
+}
+
+/* Ordered List Styling */
+.how-to-fill-form ol {
+    list-style-position: inside;
+    /* Keep numbers inside the list */
+    padding-left: 20px;
+    /* Indent the list */
+}
+
+/* List Item Styling */
+.how-to-fill-form ol li {
+    font-size: 1.2rem;
+    /* Standard font size for list items */
+    margin-bottom: 12px;
+    /* Margin between list items */
+    line-height: 1.6;
+    /* Better line height for readability */
+}
+
+/* Styling for Important or Bold Points in List */
+.how-to-fill-form ol li strong {
+    color: #ffffff;
+    /* Make strong/bold text white */
+    font-weight: bold;
+    /* Ensure bold text is clearly visible */
+}
+
+
 @media (max-width: 600px) {
+
+    /* General Body Adjustments for Mobile */
+    body {
+        padding-top: 100px;
+        font-size: 14px;
+        line-height: 1.5;
+        /* Slightly smaller base font for mobile readability */
+    }
+
+    /* Event Page Adjustments */
+    .event-page {
+        padding: 20px 10px;
+        /* Reduced padding for smaller screens */
+    }
+
+    .event-title {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        /* Scaled down title size */
+    }
+
+    .event-subtitle {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        /* Adjusted subtitle size */
+    }
+
+    /* Event Grid for Mobile */
     .event-grid {
         grid-template-columns: 1fr;
+        gap: 20px;
+        /* Single-column layout for better fit */
+    }
+
+    .event-card {
+        padding: 15px;
+        border-radius: 8px;
+        /* Reduced padding and radius */
     }
 
     .event-card h2 {
-        font-size: 1.3rem;
-        /* Smaller font size for mobile */
+        font-size: 1.2rem;
+        /* Scaled down card title */
     }
 
     .event-price {
         font-size: 1rem;
+        /* Adjusted price font size */
+    }
+
+    /* Modal Adjustments */
+    .event-modal {
+        padding: 10px;
+        /* Add padding for mobile responsiveness */
     }
 
     .modal-content {
+        max-width: 90%;
         padding: 20px;
+        /* Ensure modal fits within the screen width */
     }
 
+    .modal-content h2 {
+        font-size: 1.8rem;
+        /* Slightly smaller modal title */
+    }
+
+    /* Button Adjustments for Mobile */
     .register-button,
     .close-button {
         font-size: 1rem;
-        padding: 10px 20px;
+        padding: 10px 15px;
+        /* Smaller button size */
+    }
+
+    /* Registration Guidelines */
+    .registration-guidelines {
+        padding: 20px 15px;
+        font-size: 1rem;
+        /* Compact padding and consistent font size */
+    }
+
+    .registration-guidelines .section-title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        /* Adjusted section title */
+    }
+
+    .registration-guidelines .subheading {
+        font-size: 1.2rem;
+        /* Adjusted subheading size */
+    }
+
+    .registration-guidelines li {
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+        /* Reduced spacing and font size */
+    }
+
+    /* How to Fill Form Section */
+    .how-to-fill-form {
+        padding: 20px 15px;
+        font-size: 1rem;
+        /* Compact padding and adjusted font size */
+    }
+
+    .how-to-fill-form h2 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        /* Scaled down title size */
+    }
+
+    .how-to-fill-form p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+        /* Adjusted paragraph spacing */
+    }
+
+    .how-to-fill-form ol li {
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+        /* Reduced font size and spacing */
     }
 }

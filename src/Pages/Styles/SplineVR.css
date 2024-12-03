@@ -19,6 +19,18 @@
     /* Ensure it's in the background */
 }
 
+/* Background image for mobile */
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
 /* Overlay content styling */
 .content-overlay {
     position: absolute;
@@ -121,6 +133,13 @@
     .cta-button {
         font-size: 16px;
         padding: 10px 20px;
+    }
+
+    /* Ensure background image covers the container */
+    .background-image {
+        background-size: cover;
+        background-position: center;
+        opacity: 20%;
     }
 }
 

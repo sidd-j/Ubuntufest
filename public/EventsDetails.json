@@ -1,23 +1,9 @@
 [
     {
-        "name": "Photography",
-        "price": "₹50",
-        "description": "Capture the moments with your photography skills. Participants must submit their photos under a chosen theme. All photos must be original and not edited beyond basic adjustments.",
-        "rules": [
-            "All photos must be original.",
-            "No heavy editing; only basic adjustments are allowed.",
-            "Submit photos under the chosen theme.",
-            "Submissions can be made under Phone Photography or DSLR Photography.",
-            "Online Submission: Upload your photo on Instagram and tag @ubuntu.pvr. Mention your category (Phone/DSLR) in the caption.",
-            "Offline Submission: Submit a hard copy of your photo by 20th Dec (till 11 am). Ensure that your Instagram account name is clearly written on the back of the photo."
-        ]
-    },
-    {
-        "name": "Rangon ki Dastan (Rangoli)",
+        "name": "Rangon ki Dastan (Rangoli) Solo/Duo",
         "price": "₹50",
         "description": "Create beautiful Rangoli designs and showcase your artistry. Designs should be on a 4x4 feet surface. Participants can use colored powders, flowers, or other materials.",
         "rules": [
-            "Entry Fees: ₹50.",
             "Per college: 2 entries.",
             "All Rangoli designs must reflect the vintage theme.",
             "Participants can depict vintage elements like old cultural symbols, classic motifs, traditional patterns, or retro art from previous eras.",
@@ -29,208 +15,337 @@
             "No references are allowed (e.g., mobile phones)."
         ]
     },
+
     {
-        "name": "Timeless Beauty (Face Beauty)",
+        "name": "Face Makeup Solo/Duo",
         "price": "₹50",
-        "description": "Display your beauty and makeup skills in this competition. Models and makeup artists can team up. Participants must follow the event’s theme, and models should be prepared for the session.",
+        "description": "Enhances natural beauty with expertly applied products for a flawless and radiant look.",
         "rules": [
-            "Participants must strictly adhere to the vintage theme. Makeup looks should be inspired by iconic eras like the 1920s, 1950s, 1970s, 1980s, etc.",
-            "Participants may choose a specific era or blend elements from multiple decades.",
+            "Participants must strictly adhere to the vintage theme. Makeup looks should be inspired by iconic eras like the 1920s,1950s,1970s, 1980s, etc",
+            "Participants may choose a specific era or blend elements from multipledecades.",
             "Participants must arrive 30 minutes before the start of the competition for check-in and setup.",
-            "Participants are encouraged to bring their own materials; all makeup products used must be non-toxic and safe for skin.",
-            "Use of references (e.g., mobiles, photographs, stencils) is prohibited."
+            "Participants are encouraged to bring their own materials, all makeup products used must be non-toxic and safe for skin",
+            "Use of references ( mobiles, photographs,stencils etc) Is prohibited"
         ]
     },
-    {
-        "name": "Reel it Feel it (Reel Making)",
-        "price": "₹50",
-        "description": "Make a short and creative reel video for the competition. Videos should not exceed 30 seconds. The content should be original, and participants must follow the event theme.",
-        "rules": [
-            "Videos must not exceed 30 seconds.",
-            "Content should be original and follow the event theme.",
-            "The theme will be given on the day of the CL meet.",
-            "Participants must create piracy-free videos and upload them in the reel section on Instagram.",
-            "Tag @ubuntu.pvr and write a suitable caption while posting."
-        ]
-    },
-    {
-        "name": "Mr. and Ms. UBUNTU",
-        "price": "₹50",
-        "description": "Compete for the title of Mr. and Ms. UBUNTU in this pageant. Participants will be judged on personality, talent, and appearance. Participants must prepare a performance, talent, or skill presentation.",
-        "rules": [
-            "Participants must prepare a performance, talent, or skill presentation.",
-            "Judging will be based on personality, talent, and appearance.",
-            "Participants should arrive at least 30 minutes before the event starts.",
-            "Any participant who misbehaves or argues after a warning will be disqualified."
-        ]
-    },
-    {
-        "name": "Fashion Show (Retro Runway)",
-        "price": "₹50",
-        "description": "Show off your fashion style in the retro-themed runway show. Participants should showcase their best vintage outfits. Models must be ready for multiple costume changes during the event.",
-        "rules": [
-            "Models must be ready for multiple costume changes.",
-            "Participants should showcase vintage outfits.",
-            "Judging criteria include creativity, synchronization, and adherence to the theme."
-        ]
-    },
-    {
-        "name": "Dance (Aaja Nachle)",
-        "price": "₹50",
-        "description": "Join the dance competition and groove to the music. Choreography can be performed solo or in groups. Performances should be within 4 minutes, and teams should not exceed 6 members.",
-        "rules": [
-            "Performance time limit: 4 minutes.",
-            "Teams should not exceed 6 members.",
-            "Judging criteria include creativity, synchronization, and energy."
-        ]
-    },
-    {
-        "name": "Online Gaming: Stumble Guys",
-        "price": "₹50",
-        "description": "Compete in the Stumble Guys gaming event. Players must navigate obstacles in a race to the finish. Fair play and no external tools are allowed.",
-        "rules": [
-            "Fair play must be followed.",
-            "No external tools allowed.",
-            "Players must have a stable internet connection."
-        ]
-    },
-    {
-        "name": "Gully Badminton",
-        "price": "₹50",
-        "description": "Play badminton in a unique gully-style competition. The rules are modified for a fun, challenging experience. Players must follow the modified gully rules provided at the start of the match.",
-        "rules": [
-            "Participants should bring their own rackets.",
-            "The shuttlecock will be provided by the college.",
-            "Judges' decisions will be final."
-        ]
-    },
+
     {
         "name": "Nakh Shikant (Nail Art)",
         "price": "₹50",
         "description": "Show off your nail art creativity in this competition. Participants must provide their own supplies and models. Designs should be original and not copied.",
         "rules": [
             "Nail art must reflect a specific vintage era (e.g., 1920s Art Deco, 1950s Pinup, 1960s Mod, 1970s, 1980s, etc.).",
-            "Participants must provide their own supplies and models.",
+            "Only clear artificial nails are allowed ( not provided by us )",
             "Stencils are not allowed.",
             "Designs should incorporate vintage-inspired elements.",
+            "Failure to follow rules, poor hygiene, or inappropriate designs may result in disqualification.",
             "Use of references (e.g., mobiles, photographs, stencils) is prohibited."
         ]
     },
+
     {
-        "name": "Photography",
+        "name": "Photography ",
         "price": "₹50",
         "description": "Capture the moments with your photography skills. Participants must submit their photos under a chosen theme. All photos must be original and not edited beyond basic adjustments.",
         "rules": [
-            "All photos must be original.",
-            "No heavy editing; only basic adjustments are allowed.",
-            "Submit photos under the chosen theme.",
-            "Submissions can be made under Phone Photography or DSLR Photography.",
+            "Categories: Submissions can be made under Phone Photography or DSLR Photography.",
             "Online Submission: Upload your photo on Instagram and tag @ubuntu.pvr. Mention your category (Phone/DSLR) in the caption.",
-            "Offline Submission: Submit a hard copy of your photo by 20th Dec (till 11 am). Ensure that your Instagram account name is clearly written on the back of the photo."
+            "Offline Submission: Submit a hard copy of your photo by 20th dec (till 11 am). Ensure that your Instagram account name is clearly written on the back of the photo.",
+            "Vintage Style Requirement: Capture photo in vintage style and vintage theme. Capture authentic, timeless moments."
         ]
     },
+
     {
-        "name": "Rangon ki Dastan (Rangoli)",
-        "price": "₹50",
-        "description": "Create beautiful Rangoli designs and showcase your artistry. Designs should be on a 4x4 feet surface. Participants can use colored powders, flowers, or other materials.",
+        "name": "Nayak aur Nazare (Monoact)",
+        "price": "₹100",
+        "description": "A solo performance where an actor portrays various characters or emotions.",
         "rules": [
-            "Entry Fees: ₹50.",
-            "Per college: 2 entries.",
-            "All Rangoli designs must reflect the vintage theme.",
-            "Participants can depict vintage elements like old cultural symbols, classic motifs, traditional patterns, or retro art from previous eras.",
-            "Participants can compete individually.",
-            "A maximum of 1 hour 30 minutes will be given to each team to complete their Rangoli.",
-            "Participants should bring their own Rangoli materials (e.g., colored powders, flowers, rice, or sand). Some basic materials might be provided by the college if needed.",
-            "Only natural colors and materials (e.g., flowers, organic powders) are encouraged for eco-friendliness.",
-            "No use of toxic materials, paints, or adhesives that might damage surfaces.",
-            "No references are allowed (e.g., mobile phones)."
+            "The performance must be based on achosen theme(e.g.,Vintage).",
+            "Participants should bring their own costume and props",
+            "Judging criteria include creativity, expression, and relevance to the theme.",
+            "Participants must arrive one hour before the event; latecomers will bepenalized.",
+            "Slots will be allotted as per registration.",
+            "If anything in the act is offensive or vulgar, or hurts the sentiments of any community,the team will be DISQUALIFIED and no political statements or references are allowed."
         ]
     },
+
     {
-        "name": "Timeless Beauty (Face Beauty)",
-        "price": "₹50",
-        "description": "Display your beauty and makeup skills in this competition. Models and makeup artists can team up. Participants must follow the event’s theme, and models should be prepared for the session.",
+        "name": "Mr. and Ms. UBUNTU",
+        "price": "₹250",
+        "description": "Compete for the title of Mr. and Ms. UBUNTU in this pageant. Participants will be judged on personality, talent, and appearance. Participants must prepare a performance, talent, or skill presentation.",
         "rules": [
-            "Participants must strictly adhere to the vintage theme. Makeup looks should be inspired by iconic eras like the 1920s, 1950s, 1970s, 1980s, etc.",
-            "Participants may choose a specific era or blend elements from multiple decades.",
-            "Participants must arrive 30 minutes before the start of the competition for check-in and setup.",
-            "Participants are encouraged to bring their own materials; all makeup products used must be non-toxic and safe for skin.",
-            "Use of references (e.g., mobiles, photographs, stencils) is prohibited."
+            "Participants are requested to come half an hour before the event starts.",
+            "Participants are advised to wear decent and appropriate attire, attire should not be offensive. If any participants wears offensive attire will be eliminated on the spot.",
+            "Judging will be based on walk, attire, response, and talent.",
+            "For the talent round participants will be given 2-3 minutes to display their talent.",
+            "Any songs needed for the talent round must be submitted to the organizing team at the time of registration.",
+            "There will be an elimination after each round on the basis of walk, attire, and talent.",
+            "Any participant who misbehaves or argues after a warning will be disqualified."
         ]
     },
+
+    {
+        "name": "Suron ki mehefil (Singing) Solo",
+        "price": "₹50",
+        "description": "The art of producing musical sounds with the voice, expressing emotion and melody.",
+        "rules": [
+            "Eligibility: - Open to college students and external participants.",
+            "warning bell at 4 minutes.",
+            "Song Selection:- Vintage theme ('60s, '70s, '80s), any genre",
+            "Respectful Behaviour: No disruptive behaviour or inappropriate content.",
+            "Background Music: - Submit tracks on USB or mobile a day before; no personal instruments allowed.",
+            "A panel of judges will evaluate performance based on vocal quality, stage presence, and theme."
+        ]
+    },
+
+    {
+        "name": "Suron ki Mehefil (Singing) Group",
+        "price": "₹50",
+        "description": "The art of producing musical sounds with the voice, expressing emotion and melody.",
+        "rules": [
+            "Eligibility: - Open to college students and external participants (group should consist of 2-6 people).",
+            "warning bell at 4 minutes.",
+            "Song Selection:- Vintage theme ('60s, '70s, '80s), any genre",
+            "Respectful Behaviour: No disruptive behaviour or inappropriate content.",
+            "Background Music: - Submit tracks on USB or mobile a day before; no personal instruments allowed.",
+            "A panel of judges will evaluate performance based on vocal quality, stage presence, and theme."
+        ]
+    },
+
+    {
+        "name": "Naadbrahma (Instrumental) Solo",
+        "price": "₹50",
+        "description": "Musical performance focused on melodies and harmonies played using instruments, without vocals.",
+        "rules": [
+            "Instrumentalists should bring their own instruments, jack, cords for connecting mobile or instruments",
+            "Instrument Categories: Wind, String, and Percussion.",
+            "Any raag, chota khyal, bandish, kayda, tukda, or composition of your choice.",
+            "Accompanist (for solo/Individual performance): One accompanist for sath sangaat, lehra, or electronic lehra machine, or Ishala/lehra studio, sur sadhak, etc.",
+            "Participants will be solely judged based on their performance.",
+            "In the event of a tie between two or more contestants, an on-thespot round will be held between those contestants.",
+            "Participants should arrive one hour prior to the event. There will be negative marking for latecomers.",
+            "Slots will be allotted as per registration.",
+            "College IDs are mandatory.",
+            "Judge's decisions will be final."
+        ]
+    },
+
+    {
+        "name": "Naadbrahma (Instrumental) Group",
+        "price": "₹200",
+        "description": "Musical performance focused on melodies and harmonies played using instruments, without vocals.",
+        "rules": [
+            "Instrumentalists should bring their own instruments, jack, cords for connecting mobile or instruments",
+            "Instrument Categories: Wind, String, and Percussion.",
+            "Any raag, chota khyal, bandish, kayda, tukda, or composition of your choice.",
+            "Accompanist (for solo/Individual performance): One accompanist for sath sangaat, lehra, or electronic lehra machine, or Ishala/lehra studio, sur sadhak, etc.",
+            "Participants will be solely judged based on their performance.",
+            "In the event of a tie between two or more contestants, an on-thespot round will be held between those contestants.",
+            "Participants should arrive one hour prior to the event. There will be negative marking for latecomers.",
+            "Slots will be allotted as per registration.",
+            "College IDs are mandatory.",
+            "Judge's decisions will be final."
+        ]
+    },
+
+    {
+        "name": "Fashion Show (Retro Runway)",
+        "price": "₹150",
+        "description": "The art of expressing emotions and storytelling through rhythmic body movements.",
+        "rules": [
+            "Maximum 5- 10 participants for group entries",
+            "Participants must adhere to the theme and dress code.",
+            "The decision of the judges will be final.",
+            "Participants will be solely judged based on their performance.",
+            "Dress code: decent clothes.",
+            "Theme for the event will be shared 7 days prior the event.",
+            "In the event of a tie between two or more contestants, an onthe-spot round will be held between those contestants.",
+            "Participants should arrive one hour prior to the event. There will be negative marking for latecomers.",
+            "Slots will be allotted as per registration."
+        ]
+    },
+
+    {
+        "name": "Aaja Nachle (Dance) Solo",
+        "price": "₹100",
+        "description": "Join the dance competition and groove to the music. Choreography can be performed solo or in groups. Performances should be within 4 minutes, and teams should not exceed 6 members.",
+        "rules": [
+            "Participants should bring their music and props.",
+            "Participants should bring a backup copy of their music on a USB drive or phone in case of technical issues.",
+            "The dance performance must relate to the theme 'Vintage'.",
+            "Judging criteria include performance, synchronization, creativity, and theme relevance.",
+            "Participants must arrive one hour before the event; latecomers will be penalized.",
+            "Dangerous or hazardous props (e.g., fire, sharp objects) are prohibited."
+        ]
+    },
+
+    {
+        "name": "Aaja Nachle (Dance) Group",
+        "price": "₹250",
+        "description": "Join the dance competition and groove to the music. Choreography can be performed solo or in groups. Performances should be within 4 minutes, and teams should not exceed 6 members.",
+        "rules": [
+            "Minimum of 2 and Maximum of 6 participants in a group.",
+            "Participants should bring their music and props.",
+            "Participants should bring a backup copy of their music on a USB drive or phone in case of technical issues.",
+            "The dance performance must relate to the theme 'Vintage'.",
+            "Judging criteria include performance, synchronization, creativity, and theme relevance.",
+            "Participants must arrive one hour before the event; latecomers will be penalized.",
+            "Dangerous or hazardous props (e.g., fire, sharp objects) are prohibited."
+        ]
+    },
+    
     {
         "name": "Reel it Feel it (Reel Making)",
         "price": "₹50",
         "description": "Make a short and creative reel video for the competition. Videos should not exceed 30 seconds. The content should be original, and participants must follow the event theme.",
         "rules": [
-            "Videos must not exceed 30 seconds.",
-            "Content should be original and follow the event theme.",
-            "The theme will be given on the day of the CL meet.",
-            "Participants must create piracy-free videos and upload them in the reel section on Instagram.",
-            "Tag @ubuntu.pvr and write a suitable caption while posting."
+            "The theme will be given on the day of CL meet capturing elements of a past era (such as fashion, lifestyle, or visual style).",
+            "Each reel must be between 15–60 seconds.",
+            "Only one reel per participant is allowed.",
+            "All content (visuals, music, and footage) must be original.",
+            "Plagiarized or copyrighted material will lead to disqualification.",
+            "Participants are given creative freedom the best video the way they want.",
+            "Create piracy free video on given theme and upload it in reel section in Instagram.",
+            "Do tag @ubuntu.pvc",
+            "Write a suitable caption and post it."
         ]
     },
+    
     {
-        "name": "Mr. and Ms. UBUNTU",
+        "name": "Mad Adv.",
         "price": "₹50",
-        "description": "Compete for the title of Mr. and Ms. UBUNTU in this pageant. Participants will be judged on personality, talent, and appearance. Participants must prepare a performance, talent, or skill presentation.",
+        "description": "A creative promotion designed to inform and attract attention to products, services, or ideas.",
         "rules": [
-            "Participants must prepare a performance, talent, or skill presentation.",
-            "Judging will be based on personality, talent, and appearance.",
-            "Participants should arrive at least 30 minutes before the event starts.",
-            "Any participant who misbehaves or argues after a warning will be disqualified."
+            "Group Participation: Each group must have 2-3 members, with a maximum of 2 groups allowed per college. Prior registration is mandatory.",
+            "Ad Format & Theme: Advertisements can be digital presentations or physical product demonstrations, showcasing the theme Vintage India while being funny, humorous, unique, and attractive.",
+            "Time Limit: Advertisements must be between 30 seconds and 2 minutes.",
+            "Arrangements: Groups handling physical products must arrange for them independently and bring necessary digital files (e.g., pen drives) to avoid technical issues.",
+            "Presentation Guidelines: Professional decorum must be maintained; offensive language, inappropriate statements, or actions will lead to disqualification.",
+            "Judging Criteria: Ads will be judged on attractiveness, uniqueness, creativity, humor, and overall presentation.",
+            "Optional Creativity: Participants may dress according to their ad theme."
         ]
     },
-    {
-        "name": "Fashion Show (Retro Runway)",
-        "price": "₹50",
-        "description": "Show off your fashion style in the retro-themed runway show. Participants should showcase their best vintage outfits. Models must be ready for multiple costume changes during the event.",
-        "rules": [
-            "Models must be ready for multiple costume changes.",
-            "Participants should showcase vintage outfits.",
-            "Judging criteria include creativity, synchronization, and adherence to the theme."
-        ]
-    },
-    {
-        "name": "Dance (Aaja Nachle)",
-        "price": "₹50",
-        "description": "Join the dance competition and groove to the music. Choreography can be performed solo or in groups. Performances should be within 4 minutes, and teams should not exceed 6 members.",
-        "rules": [
-            "Performance time limit: 4 minutes.",
-            "Teams should not exceed 6 members.",
-            "Judging criteria include creativity, synchronization, and energy."
-        ]
-    },
+    
     {
         "name": "Online Gaming: Stumble Guys",
         "price": "₹50",
         "description": "Compete in the Stumble Guys gaming event. Players must navigate obstacles in a race to the finish. Fair play and no external tools are allowed.",
         "rules": [
-            "Fair play must be followed.",
-            "No external tools allowed.",
-            "Players must have a stable internet connection."
+            "No additional abilities or modifications are allowed.",
+            "Participants must have a stable internet connection. We are not responsible for any failure to join the event or issues caused by poor connectivity.",
+            "All players must report to the classroom at least 15 minutes before the scheduled start time. Latecomers will be disqualified.",
+            "Proper coordination and respectful behavior with all volunteers are mandatory. Failure to do so will result in disqualification.",
+            "Any form of hacking or cheating will lead to immediate disqualification.",
+            "Participants who lose their tickets or coupons will be disqualified."
         ]
     },
+
+    {
+        "name": "Online Gaming: Clash Royale",
+        "price": "₹50",
+        "description": "A real-time multiplayer strategy game featuring card-based battles and tower defense.",
+        "rules": [
+            "Each player gets one chance. If they lose, they’re out.",
+            "Final match i.e between last two players will be a best of three round which means whichever player between the last Two players wins Two rounds out of Three will be the final winner",
+            "Any use of external apps or manipulation is grounds for disqualification.",
+            "Players must respect opponents and officials; abusive language or behaviour can lead to a warning or disqualification.",
+            "Players must be ready at least 30 minutes before their match. Late arrivals beyond a certain time limit may be disqualified."
+        ]
+    },
+
+    {
+        "name": "Online Gaming: BGMI",
+        "price": "₹50",
+        "description": "A battle royale game where players fight to be the last one standing in a large, open-world map.",
+        "rules": [
+            "4 v 4 is mandatory.",
+            "Finger sleeves is allowed.",
+            "Air triggers or external triggers are not allowed.",
+            "Hacking is prohibited.",
+            "Ensure that the language used is appropriate and respectful.",
+            "There should not be any potential issues, such as hate or harassment. If any participant is found, the team will be disqualified.",
+            "Participants should come 15 min prior.",
+            "Participants should have a strong internet connection.",
+            "The game should be updated." 
+        ]
+    },
+
+    {
+        "name": "Online Gaming: E-Football",
+        "price": "₹50",
+        "description": "A digital soccer game series offering realistic gameplay and online competitions, featuring teams from global leagues.",
+        "rules": [
+            "Only individual entries are allowed.",
+            "Only the use of authentic teams is allowed no dream team.",
+            "A penalty shootout will be conducted in case of a draw.",
+            "Match time will be 6 mins only per game.",
+            "Participants should have a strong internet connection.",
+            "Participants should arrive at least 15 min before the start of the event.",
+            "Use of abusive language will lead to disqualification.",
+            "Elimination will be from round 1.",
+            "All the other details will be explained before the event." 
+        ]
+    },
+
+    {
+        "name": "KBC",
+        "price": "₹50",
+        "description": "A game or competition where participants answer questions to test their knowledge on various topics.",
+        "rules": [
+            "Group Formation & Eligibility: Each group must consist of two members. Inter-college participants must present valid ID proof.",
+            "Arrival & Conduct: Participants should arrive 30 minutes before the event starts. Phones are strictly prohibited during the game.",
+            "Quiz Structure: The quiz will cover general knowledge topics, with multiple rounds that increase in difficulty. Each round consists of ten questions.",
+            "Answering Rules: Groups will use a Green Card to answer questions and a Red Card for a 50-50 lifeline (once per round).",
+            "Scoring System: Correct answers using the Green Card earn 50 points, while answers using the 50-50 lifeline earn 20 points. Incorrect answers earn no points.",
+            "Timing: Groups using the lifeline have 10 seconds to answer.",
+            "Advancement: After each round, points (notes) are tallied. The highest-scoring groups advance, while others are eliminated." 
+        ]
+    },
+
+    {
+        "name": "Escape Room",
+        "price": "₹100",
+        "description": "A team-based puzzle game where players solve clues and challenges to escape from a themed room within a set time limit.",
+        "rules": [
+            "A team can participate with 3 members.",
+            "Arrival – players must arrive 2 minutes prior to the scheduled start time.",
+            "Game rules – Escape by solving puzzles and clues in 5 minutes.",
+            "The escape room will consists of 5 clues , each one leading to the next clue.",
+            "The clues are found to be in a particular order. A team cannot skip a clue. Skipping a clue will lead to disqualification of the team..",
+            "Use of mobiles phones will be prohibited.",
+            "No damaging or destroying props. No removing items from the room. No force or violence.", 
+            "Decisions taken by the Event head will be treated as fair and final.",
+            "On the absence at the schedule starting time the team will be considered disqualified.",
+            "Any breach of fair play rules will lead to disqualification. Event Head decision will be final.",
+            "The first team to escape the room in less time will be crowned the winner"
+        ]
+    },
+
     {
         "name": "Gully Badminton",
-        "price": "₹50",
+        "price": "₹100",
         "description": "Play badminton in a unique gully-style competition. The rules are modified for a fun, challenging experience. Players must follow the modified gully rules provided at the start of the match.",
         "rules": [
             "Participants should bring their own rackets.",
             "The shuttlecock will be provided by the college.",
-            "Judges' decisions will be final."
+            "Participants must arrive 30 minutes before the start of the competition for check-in.",
+            "Judges decision will be final"
         ]
     },
+
     {
-        "name": "Nakh Shikant (Nail Art)",
+        "name": "Chess",
         "price": "₹50",
-        "description": "Show off your nail art creativity in this competition. Participants must provide their own supplies and models. Designs should be original and not copied.",
+        "description": "A strategic board game played between two players, where each controls 16 pieces with the goal of checkmating the opponent's king.",
         "rules": [
-            "Nail art must reflect a specific vintage era (e.g., 1920s Art Deco, 1950s Pinup, 1960s Mod, 1970s, 1980s, etc.).",
-            "Participants must provide their own supplies and models.",
-            "Stencils are not allowed.",
-            "Designs should incorporate vintage-inspired elements.",
-            "Use of references (e.g., mobiles, photographs, stencils) is prohibited."
+            "players will be given a time for 10 mins each for the game",
+            "warning will be given for one foul",
+            "Two fouls will count as default",
+            "manuplating withthe pawn or playing table will be considered as a foul",
+            "the judge decision will be the final decision.",
+            "HPD decision will be final"
+
         ]
     }
+    
 ]

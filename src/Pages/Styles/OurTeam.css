@@ -5,142 +5,114 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
   padding: 40px;
   background-color: #121212;
   color: #f4f4f4;
-  text-align: center;
-}
-
-/* Bottom Section (Grid Layout for Two Groups per Row) */
-.ourTeam-bottomSection {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* Two columns: one for left and one for right */
-  gap: 40px;
-  width: 100%;
-  max-width: 1200px;
-  justify-content: center;
 }
 
 /* Group Styling */
 .ourTeam-group {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
+  gap: 25px;
+  width: 100%;
+  max-width: 1200px;
 }
 
-/* Group Heading */
 .ourTeam-groupHeading {
-  margin: 0;
-  font-size: 1.5rem;
-  color: #ffa500;
+  font-size: 2rem;
+  color: #ff8c00;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Grid Layout */
+.ourTeam-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 images per row for larger teams */
+  gap: 30px;
+  justify-items: center;
 }
 
 .ourTeam-member {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
-}
-
-.ourTeam-name {
-  margin-top: 5px;
-  font-size: 14px;
-  font-weight: bold;
   text-align: center;
 }
 
-/* Top Row Styling */
-.top_row {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-/* Pair Styling */
-.ourTeam-pair {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  border: none;
-  /* Removed border from pairs */
+.ourTeam-name {
+  margin-top: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  transition: color 0.3s ease;
 }
 
 /* Image Styling */
 .ourTeam-image {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
-  border: 2px solid #ffa500;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-}
-
-.ourTeam-image-top {
-  width: 250px;
-  height: 250px;
-  object-fit: contain;
-  border: 2px solid #ffa500;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border: 3px solid #ff8c00;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .ourTeam-image:hover {
   transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(255, 140, 0, 0.6);
+  /* Glow effect */
 }
 
-.ourTeam-image-top:hover {
-  transform: scale(1.1);
+.ourTeam-member:hover .ourTeam-name {
+  color: #ff8c00;
+}
+
+/* Special Styling for the CL team (center them) */
+.ourTeam-container .ourTeam-group:nth-child(1) .ourTeam-grid {
+  grid-template-columns: 1fr 1fr;
+  /* Only two members, so center them */
+  justify-content: center;
+  /* Ensure they are centered in the middle */
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
-  .ourTeam-image {
-    width: 150px;
-    /* Increased image size on tablets */
-    height: 150px;
-  }
-
-  .ourTeam-group {
-    padding: 15px;
-  }
-
-  .ourTeam-groupHeading {
-    font-size: 1.3rem;
+@media (max-width: 900px) {
+  .ourTeam-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* Two per row for medium devices */
+    gap: 20px;
+    /* Adjust gap for smaller screens */
   }
 }
 
-@media (max-width: 768px) {
-  .ourTeam-pair {
-    flex-direction: column;
-    gap: 15px;
+@media (max-width: 600px) {
+  .ourTeam-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* Two per row for mobile devices */
+    gap: 20px;
+    /* Maintain some space between items */
   }
 
   .ourTeam-image {
     width: 180px;
-    /* Increased image size on small screens */
     height: 180px;
-  }
-}
-
-@media (max-width: 480px) {
-  .ourTeam-bottomSection {
-    grid-template-columns: 1fr;
-    /* Single group per row on small screens */
+    /* Adjust size on smaller devices */
   }
 
   .ourTeam-groupHeading {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    /* Slightly smaller heading on mobile */
   }
 
-  .ourTeam-image,
-  .ourTeam-image-top {
-    width: 150px;
-    /* Increased image size on very small screens */
-    height: 150px;
+  .ourTeam-name {
+    font-size: 1.1rem;
+    /* Smaller font for names on mobile */
   }
 }

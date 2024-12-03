@@ -107,15 +107,55 @@ const HomePage = () => {
                         <div className="faq-item">
                             <h3>How can I register?</h3>
                             <p>For event registrations, we have separate Google Forms for in-house and out-house participants:</p>
+                            <ul>
+                                <li>
+                                    <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSf2UwLfpKh5b2l5SRALUTkaYUYR7sBxI0ntcgYii9Y_iwUfpA/viewform?usp=sf_link"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        In-House Registration
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLScIsjQFAPNL-Y8nfZ8I_MKjbsDN_gtO8tcKDW1gwxP7ugC8LQ/viewform?usp=sf_link"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Out-House Registration
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
+
+
+
+                        <div className="faq-item">
+                            <h3>What events are there in the fest?</h3>
+                            <p>
+                                Our fest features a variety of exciting events, including cultural performances, technical competitions, workshops, and much more!
+                                For detailed information about each event, visit our <a href="/Ubuntufest/events" target="_self">Events Page</a>.
+                            </p>
+                        </div>
+
                         <div className="faq-item">
                             <h3>Where is the event held?</h3>
                             <p>The Ubuntu fest is hosted annually at Patkar-Varde College in the heart of Mumbai, India.</p>
+                            <div className="map-container">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.6208864665914!2d72.84327526199108!3d19.16806534899864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b78f43408a6b%3A0xa387a49687e89612!2sChikitsak%20Samuha&#39;s%20Sir%20Sitaram%20%26%20Lady%20Shantabai!5e0!3m2!1sen!2sin!4v1733231195476!5m2!1sen!2sin"
+                                    width="100%"
+                                    height="300"
+                                    style={{ border: 0 }}
+                                    allowFullScreen=""
+                                    loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                ></iframe>
+                            </div>
+
                         </div>
-                        <div className="faq-item">
-                            <h3>Can I participate remotely?</h3>
-                            <p>Yes! Some events may be available for virtual participation. Please check the event page for more details.</p>
-                        </div>
+
                     </div>
                 </section>
             </div>

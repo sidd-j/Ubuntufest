@@ -344,3 +344,20 @@
         height: 2%;
     }
 }
+
+.map-small-container {
+    margin-top: 8px;
+    /* Space between "Our College" and the map */
+    width: 100%;
+    /* Ensure it matches the footer section width */
+    max-width: 300px;
+    /* Optional: limit map size */
+    height: 150px;
+    /* Set height to match the iframe */
+    border: 1px solid #ccc;
+    /* Add a border for better separation */
+    border-radius: 8px;
+    /* Optional: rounded corners */
+    overflow: hidden;
+    /* Apply rounded corners cleanly */
+}

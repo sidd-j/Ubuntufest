@@ -298,3 +298,44 @@ body {
     opacity: 1;
     transform: scale(1);
 }
+
+.faq-item ul {
+    list-style-type: none;
+    /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.faq-item li {
+    margin-bottom: 8px;
+}
+
+.faq-item a {
+    color: #007bff;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
+.map-container {
+    margin-top: 16px;
+    /* Space above the map */
+    border: 1px solid #ccc;
+    /* Optional border around the map */
+    border-radius: 8px;
+    /* Rounded corners */
+    overflow: hidden;
+    /* Ensures rounded corners apply */
+    display: flex;
+    /* Centers the map horizontally */
+    justify-content: center;
+    background-color: #f9f9f9;
+    /* Optional background for better contrast */
+    padding: 8px;
+    /* Space around the map */
+}
