@@ -135,7 +135,12 @@ const HomePage = () => {
                             <h3>What events are there in the fest?</h3>
                             <p>
                                 Our fest features a variety of exciting events, including cultural performances, technical competitions, workshops, and much more!
-                                For detailed information about each event, visit our <a href="/events" target="_self">Events Page</a>.
+                                For detailed information about each event, visit our <Link
+                                    to="/events"
+                                    rel="noopener noreferrer"
+                                >
+                                    Events Page
+                                </Link>
                             </p>
                         </div>
 

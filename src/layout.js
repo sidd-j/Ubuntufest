@@ -95,12 +95,12 @@ const Layout = ({ children }) => {
                     </div>
                     <div className="footer-section">
                         <h3>
-                            <a
-                                href="/events"
+                            <Link
+                                to="/our-team"
                                 rel="noopener noreferrer"
                             >
                                 Our Team
-                            </a>
+                            </Link>
                         </h3>
                     </div>
                     <div className="footer-section social-media">
