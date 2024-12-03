@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Ubuntufest/static/css/main.5ba29c6f.chunk.css",
-    "main.js": "/Ubuntufest/static/js/main.b2becb1b.chunk.js",
-    "main.js.map": "/Ubuntufest/static/js/main.b2becb1b.chunk.js.map",
+    "main.css": "/Ubuntufest/static/css/main.5610cbd5.chunk.css",
+    "main.js": "/Ubuntufest/static/js/main.9bc4a2dc.chunk.js",
+    "main.js.map": "/Ubuntufest/static/js/main.9bc4a2dc.chunk.js.map",
     "runtime-main.js": "/Ubuntufest/static/js/runtime-main.dc286b34.js",
     "runtime-main.js.map": "/Ubuntufest/static/js/runtime-main.dc286b34.js.map",
     "static/js/2.12007c49.chunk.js": "/Ubuntufest/static/js/2.12007c49.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.b4e009b4.chunk.js": "/Ubuntufest/static/js/3.b4e009b4.chunk.js",
     "static/js/3.b4e009b4.chunk.js.map": "/Ubuntufest/static/js/3.b4e009b4.chunk.js.map",
     "index.html": "/Ubuntufest/index.html",
-    "precache-manifest.79fbebc6d27d50ef51799b214060d29a.js": "/Ubuntufest/precache-manifest.79fbebc6d27d50ef51799b214060d29a.js",
+    "precache-manifest.864ce2118735596ff31e176b516791e4.js": "/Ubuntufest/precache-manifest.864ce2118735596ff31e176b516791e4.js",
     "service-worker.js": "/Ubuntufest/service-worker.js",
-    "static/css/main.5ba29c6f.chunk.css.map": "/Ubuntufest/static/css/main.5ba29c6f.chunk.css.map",
+    "static/css/main.5610cbd5.chunk.css.map": "/Ubuntufest/static/css/main.5610cbd5.chunk.css.map",
     "static/js/2.12007c49.chunk.js.LICENSE.txt": "/Ubuntufest/static/js/2.12007c49.chunk.js.LICENSE.txt",
     "static/media/AjayPrajapati.jpeg": "/Ubuntufest/static/media/AjayPrajapati.4c6a22b4.jpeg",
     "static/media/AshikaShukla1.jpeg": "/Ubuntufest/static/media/AshikaShukla1.31afc1e8.jpeg",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.dc286b34.js",
     "static/js/2.12007c49.chunk.js",
-    "static/css/main.5ba29c6f.chunk.css",
-    "static/js/main.b2becb1b.chunk.js"
+    "static/css/main.5610cbd5.chunk.css",
+    "static/js/main.9bc4a2dc.chunk.js"
   ]
 }
