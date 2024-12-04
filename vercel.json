@@ -8,7 +8,7 @@
     ],
     "routes": [
         {
-            "src": " /Ubuntufest/(.*)",
+            "src": "/Ubuntufest/(.*)",
             "dest": "/Ubuntufest/index.html"
         }
     ]
