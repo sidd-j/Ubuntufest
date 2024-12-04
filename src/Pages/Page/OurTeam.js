@@ -1,17 +1,17 @@
 import React from "react";
-import "../Styles/OurTeam.css";
+import "../Styles/OurTeam.css"; // Import the updated CSS
 import Layout from "../../layout";
 
 const teamData = {
-  CL: [
+  "CL": [
     { src: require("../../images/SarvambhChurmure.jpeg"), name: "Sarvambh Churmure" },
     { src: require("../../images/Vaishnavi.jpeg"), name: "Vaishnavi Gawade" },
   ],
-  ACLs: [
+  "ACLs": [
     { src: require("../../images/AshikaShukla1.jpeg"), name: "Ashika Shukla" },
     { src: require("../../images/SachinTiwari.jpeg"), name: "Sachin Tiwari" },
   ],
-  OLD: [
+  "O&LD": [
     { src: require("../../images/SujalSawant.jpg"), name: "Sujal Sawant" },
     { src: require("../../images/Hariom.jpg"), name: "Hariom" },
     { src: require("../../images/Chinmay.jpg"), name: "Chinmay" },
@@ -31,7 +31,7 @@ const teamData = {
     { src: require("../../images/PrathamShinde.jpg"), name: "Pratham Shinde" },
   ],
   "Event Team": [
-    { src: require("../../images/ZohaShaik.jpg"), name: "Zoha SHaik" },
+    { src: require("../../images/ZohaShaik.jpg"), name: "Zoha Shaik" },
     { src: require("../../images/PradneshKalsekar.jpg"), name: "Pradnesh Kalsekar" },
     { src: require("../../images/KshitijShirke.jpeg"), name: "Kshitij Shirke" },
   ],
@@ -52,7 +52,11 @@ const OurTeam = () => {
         {Object.entries(teamData).map(([teamName, members], idx) => (
           <div key={idx} className="ourTeam-group">
             <h3 className="ourTeam-groupHeading">{teamName}</h3>
-            <div className="ourTeam-grid">
+            <div
+              className={`ourTeam-grid ${members.length === 2 ? "centered-two" : ""}`}
+            >
+
+
               {members.map((member, index) => (
                 <div key={index} className="ourTeam-member">
                   <img
@@ -72,4 +76,3 @@ const OurTeam = () => {
 };
 
 export default OurTeam;
-
