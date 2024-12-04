@@ -1,6 +1,6 @@
 [
     {
-        "name": "Rangon ki Dastan (Rangoli) Solo/Duo",
+        "name": "Rangon ki Dastan (Rangoli)",
         "price": "₹50",
         "description": "Create beautiful Rangoli designs and showcase your artistry. Designs should be on a 4x4 feet surface. Participants can use colored powders, flowers, or other materials.",
         "rules": [
@@ -15,9 +15,8 @@
             "No references are allowed (e.g., mobile phones)."
         ]
     },
-
     {
-        "name": "Face Makeup Solo/Duo",
+        "name": "Face Beauty (Timeless Beauty)",
         "price": "₹50",
         "description": "Enhances natural beauty with expertly applied products for a flawless and radiant look.",
         "rules": [
@@ -28,9 +27,8 @@
             "Use of references ( mobiles, photographs,stencils etc) Is prohibited"
         ]
     },
-
     {
-        "name": "Nakh Shikant (Nail Art)",
+        "name": "Nakh Shikant (Nail Art) ",
         "price": "₹50",
         "description": "Show off your nail art creativity in this competition. Participants must provide their own supplies and models. Designs should be original and not copied.",
         "rules": [
@@ -42,7 +40,6 @@
             "Use of references (e.g., mobiles, photographs, stencils) is prohibited."
         ]
     },
-
     {
         "name": "Photography ",
         "price": "₹50",
@@ -54,9 +51,8 @@
             "Vintage Style Requirement: Capture photo in vintage style and vintage theme. Capture authentic, timeless moments."
         ]
     },
-
     {
-        "name": "Nayak aur Nazare (Monoact)",
+        "name": "Aparichit (Mono Act)",
         "price": "₹100",
         "description": "A solo performance where an actor portrays various characters or emotions.",
         "rules": [
@@ -68,10 +64,9 @@
             "If anything in the act is offensive or vulgar, or hurts the sentiments of any community,the team will be DISQUALIFIED and no political statements or references are allowed."
         ]
     },
-
     {
         "name": "Mr. and Ms. UBUNTU",
-        "price": "₹250",
+        "price": "₹150",
         "description": "Compete for the title of Mr. and Ms. UBUNTU in this pageant. Participants will be judged on personality, talent, and appearance. Participants must prepare a performance, talent, or skill presentation.",
         "rules": [
             "Participants are requested to come half an hour before the event starts.",
@@ -83,7 +78,6 @@
             "Any participant who misbehaves or argues after a warning will be disqualified."
         ]
     },
-
     {
         "name": "Suron ki mehefil (Singing) Solo",
         "price": "₹50",
@@ -97,10 +91,9 @@
             "A panel of judges will evaluate performance based on vocal quality, stage presence, and theme."
         ]
     },
-
     {
         "name": "Suron ki Mehefil (Singing) Group",
-        "price": "₹50",
+        "price": "₹150",
         "description": "The art of producing musical sounds with the voice, expressing emotion and melody.",
         "rules": [
             "Eligibility: - Open to college students and external participants (group should consist of 2-6 people).",
@@ -111,7 +104,6 @@
             "A panel of judges will evaluate performance based on vocal quality, stage presence, and theme."
         ]
     },
-
     {
         "name": "Naadbrahma (Instrumental) Solo",
         "price": "₹50",
@@ -129,7 +121,6 @@
             "Judge's decisions will be final."
         ]
     },
-
     {
         "name": "Naadbrahma (Instrumental) Group",
         "price": "₹200",
@@ -147,9 +138,8 @@
             "Judge's decisions will be final."
         ]
     },
-
     {
-        "name": "Fashion Show (Retro Runway)",
+        "name": "Fashion Show (Retro Runway) Group",
         "price": "₹150",
         "description": "The art of expressing emotions and storytelling through rhythmic body movements.",
         "rules": [
@@ -164,7 +154,6 @@
             "Slots will be allotted as per registration."
         ]
     },
-
     {
         "name": "Aaja Nachle (Dance) Solo",
         "price": "₹100",
@@ -178,7 +167,6 @@
             "Dangerous or hazardous props (e.g., fire, sharp objects) are prohibited."
         ]
     },
-
     {
         "name": "Aaja Nachle (Dance) Group",
         "price": "₹250",
@@ -193,7 +181,6 @@
             "Dangerous or hazardous props (e.g., fire, sharp objects) are prohibited."
         ]
     },
-    
     {
         "name": "Reel it Feel it (Reel Making)",
         "price": "₹50",
@@ -210,10 +197,9 @@
             "Write a suitable caption and post it."
         ]
     },
-    
     {
-        "name": "Mad Adv.",
-        "price": "₹50",
+        "name": "Mad Advertisment.",
+        "price": "₹150",
         "description": "A creative promotion designed to inform and attract attention to products, services, or ideas.",
         "rules": [
             "Group Participation: Each group must have 2-3 members, with a maximum of 2 groups allowed per college. Prior registration is mandatory.",
@@ -225,7 +211,6 @@
             "Optional Creativity: Participants may dress according to their ad theme."
         ]
     },
-    
     {
         "name": "Online Gaming: Stumble Guys",
         "price": "₹50",
@@ -239,7 +224,6 @@
             "Participants who lose their tickets or coupons will be disqualified."
         ]
     },
-
     {
         "name": "Online Gaming: Clash Royale",
         "price": "₹50",
@@ -252,10 +236,9 @@
             "Players must be ready at least 30 minutes before their match. Late arrivals beyond a certain time limit may be disqualified."
         ]
     },
-
     {
-        "name": "Online Gaming: BGMI",
-        "price": "₹50",
+        "name": "Online Gaming: BGMI Group",
+        "price": "₹200",
         "description": "A battle royale game where players fight to be the last one standing in a large, open-world map.",
         "rules": [
             "4 v 4 is mandatory.",
@@ -266,10 +249,9 @@
             "There should not be any potential issues, such as hate or harassment. If any participant is found, the team will be disqualified.",
             "Participants should come 15 min prior.",
             "Participants should have a strong internet connection.",
-            "The game should be updated." 
+            "The game should be updated."
         ]
     },
-
     {
         "name": "Online Gaming: E-Football",
         "price": "₹50",
@@ -283,10 +265,9 @@
             "Participants should arrive at least 15 min before the start of the event.",
             "Use of abusive language will lead to disqualification.",
             "Elimination will be from round 1.",
-            "All the other details will be explained before the event." 
+            "All the other details will be explained before the event."
         ]
     },
-
     {
         "name": "KBC",
         "price": "₹50",
@@ -298,10 +279,9 @@
             "Answering Rules: Groups will use a Green Card to answer questions and a Red Card for a 50-50 lifeline (once per round).",
             "Scoring System: Correct answers using the Green Card earn 50 points, while answers using the 50-50 lifeline earn 20 points. Incorrect answers earn no points.",
             "Timing: Groups using the lifeline have 10 seconds to answer.",
-            "Advancement: After each round, points (notes) are tallied. The highest-scoring groups advance, while others are eliminated." 
+            "Advancement: After each round, points (notes) are tallied. The highest-scoring groups advance, while others are eliminated."
         ]
     },
-
     {
         "name": "Escape Room",
         "price": "₹100",
@@ -313,14 +293,13 @@
             "The escape room will consists of 5 clues , each one leading to the next clue.",
             "The clues are found to be in a particular order. A team cannot skip a clue. Skipping a clue will lead to disqualification of the team..",
             "Use of mobiles phones will be prohibited.",
-            "No damaging or destroying props. No removing items from the room. No force or violence.", 
+            "No damaging or destroying props. No removing items from the room. No force or violence.",
             "Decisions taken by the Event head will be treated as fair and final.",
             "On the absence at the schedule starting time the team will be considered disqualified.",
             "Any breach of fair play rules will lead to disqualification. Event Head decision will be final.",
             "The first team to escape the room in less time will be crowned the winner"
         ]
     },
-
     {
         "name": "Gully Badminton",
         "price": "₹100",
@@ -332,7 +311,6 @@
             "Judges decision will be final"
         ]
     },
-
     {
         "name": "Chess",
         "price": "₹50",
@@ -344,8 +322,6 @@
             "manuplating withthe pawn or playing table will be considered as a foul",
             "the judge decision will be the final decision.",
             "HPD decision will be final"
-
         ]
     }
-    
 ]
