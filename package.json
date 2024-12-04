@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sidd-j.github.io/Ubuntufest",
+  "homepage": "/Ubuntufest",
   "name": "ubuntu_web",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +25,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "vercel-build": "react-scripts --openssl-legacy-provider build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
