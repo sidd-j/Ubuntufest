@@ -23,7 +23,7 @@ const teamData = {
   ],
   "Creative Team": [
     { src: require("../../images/TejasKandalkar.jpg"), name: "Tejas Kandalkar" },
-    { src: require("../../images/AjayPrajapati.jpeg"), name: "Vedika" },
+    { src: require("../../images/Vedika.jpg"), name: "Vedika" },
   ],
   "Marketing Team": [
     { src: require("../../images/ShreePillay.jpg"), name: "Shree Pillay" },
