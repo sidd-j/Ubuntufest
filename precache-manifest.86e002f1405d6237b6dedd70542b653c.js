@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c18d38be4ad73c93591dfd4b99488416",
+    "revision": "eeb9f94a547402baff8b3531c2288b01",
     "url": "/Ubuntufest/index.html"
   },
   {
-    "revision": "12f83204a2192b87127c",
+    "revision": "cf103c115fa629fa654f",
     "url": "/Ubuntufest/static/css/main.5f7d41b8.chunk.css"
   },
   {
-    "revision": "ab7f9923d7048ad157b4",
-    "url": "/Ubuntufest/static/js/2.12007c49.chunk.js"
+    "revision": "96da92f17bb638491840",
+    "url": "/Ubuntufest/static/js/2.ac51e59e.chunk.js"
   },
   {
     "revision": "d5624f18a4e9478ce5e9ea2f3cbf2cf9",
-    "url": "/Ubuntufest/static/js/2.12007c49.chunk.js.LICENSE.txt"
+    "url": "/Ubuntufest/static/js/2.ac51e59e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f1b788027267e714264",
-    "url": "/Ubuntufest/static/js/3.b4e009b4.chunk.js"
+    "revision": "07e9f347b054493b22f1",
+    "url": "/Ubuntufest/static/js/3.f7c4a44e.chunk.js"
   },
   {
-    "revision": "12f83204a2192b87127c",
-    "url": "/Ubuntufest/static/js/main.938adc6d.chunk.js"
+    "revision": "cf103c115fa629fa654f",
+    "url": "/Ubuntufest/static/js/main.722bda54.chunk.js"
   },
   {
-    "revision": "a7fdc832bb7f3bdff8f9",
-    "url": "/Ubuntufest/static/js/runtime-main.dc286b34.js"
+    "revision": "1a8fdb7fc07ca0077cb4",
+    "url": "/Ubuntufest/static/js/runtime-main.035e5e22.js"
   },
   {
     "revision": "4c6a22b4a9d06a03fa9c40da450fa845",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ubuntufest/static/media/Hariom.01122824.jpg"
   },
   {
-    "revision": "f7fb0a68ec47685194e6aa68edda5670",
-    "url": "/Ubuntufest/static/media/KasimAnsari.f7fb0a68.jpg"
+    "revision": "eadf885d1d4099f2c5b0eed3698da0fc",
+    "url": "/Ubuntufest/static/media/KasimAnsari.eadf885d.jpg"
   },
   {
     "revision": "9960b24f15a2fe7b27593dbd82224cad",
@@ -102,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5effb016b27300102587b481f7b3f86e",
     "url": "/Ubuntufest/static/media/Vaishnavi.5effb016.jpeg"
+  },
+  {
+    "revision": "aabb183121a20766d69a9de931c5b485",
+    "url": "/Ubuntufest/static/media/Vedika.aabb1831.jpg"
   },
   {
     "revision": "373d5e8b74cd58922929b14bf94f9acc",
