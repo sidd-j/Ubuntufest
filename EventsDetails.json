@@ -24,7 +24,8 @@
             "Participants may choose a specific era or blend elements from multipledecades.",
             "Participants must arrive 30 minutes before the start of the competition for check-in and setup.",
             "Participants are encouraged to bring their own materials, all makeup products used must be non-toxic and safe for skin",
-            "Use of references ( mobiles, photographs,stencils etc) Is prohibited"
+            "Use of references ( mobiles, photographs,stencils etc) Is prohibited",
+            "Participant can compete solo or with model"
         ]
     },
     {
@@ -37,7 +38,8 @@
             "Stencils are not allowed.",
             "Designs should incorporate vintage-inspired elements.",
             "Failure to follow rules, poor hygiene, or inappropriate designs may result in disqualification.",
-            "Use of references (e.g., mobiles, photographs, stencils) is prohibited."
+            "Use of references (e.g., mobiles, photographs, stencils) is prohibited.",
+            "Participant can compete solo or with model"
         ]
     },
     {
@@ -46,7 +48,7 @@
         "description": "Capture the moments with your photography skills. Participants must submit their photos under a chosen theme. All photos must be original and not edited beyond basic adjustments.",
         "rules": [
             "Categories: Submissions can be made under Phone Photography or DSLR Photography.",
-            "Online Submission: Upload your photo on Instagram and tag @ubuntu.pvr. Mention your category (Phone/DSLR) in the caption.",
+            "Online Submission: Upload your photo on Instagram and tag @ubuntu.pvc. Mention your category (Phone/DSLR) in the caption.",
             "Offline Submission: Submit a hard copy of your photo by 20th dec (till 11 am). Ensure that your Instagram account name is clearly written on the back of the photo.",
             "Vintage Style Requirement: Capture photo in vintage style and vintage theme. Capture authentic, timeless moments."
         ]
@@ -61,7 +63,9 @@
             "Judging criteria include creativity, expression, and relevance to the theme.",
             "Participants must arrive one hour before the event; latecomers will bepenalized.",
             "Slots will be allotted as per registration.",
-            "If anything in the act is offensive or vulgar, or hurts the sentiments of any community,the team will be DISQUALIFIED and no political statements or references are allowed."
+            "If anything in the act is offensive or vulgar, or hurts the sentiments of any community,the team will be DISQUALIFIED and no political statements or references are allowed.",
+            "After registration script is mandatory.",
+            "If you need sound effects for the act you should send that in advance."
         ]
     },
     {
@@ -198,7 +202,7 @@
         ]
     },
     {
-        "name": "Mad Advertisment.",
+        "name": "Mad Advertisment. (Group)",
         "price": "₹150",
         "description": "A creative promotion designed to inform and attract attention to products, services, or ideas.",
         "rules": [
@@ -269,8 +273,8 @@
         ]
     },
     {
-        "name": "KBC",
-        "price": "₹50",
+        "name": "KBC (DUO)",
+        "price": "₹100",
         "description": "A game or competition where participants answer questions to test their knowledge on various topics.",
         "rules": [
             "Group Formation & Eligibility: Each group must consist of two members. Inter-college participants must present valid ID proof.",
@@ -283,7 +287,7 @@
         ]
     },
     {
-        "name": "Escape Room",
+        "name": "Escape Room (Bhool Bhulaiya)",
         "price": "₹100",
         "description": "A team-based puzzle game where players solve clues and challenges to escape from a themed room within a set time limit.",
         "rules": [
