@@ -26,7 +26,7 @@ const Gallery = () => {
             title: "Ubuntu 2023",
         },
         {
-            src: "/Ubuntufest/Gallery/G6.png",
+            src: "/Ubuntufest/Gallery/G6.webp",
             title: "Ubuntu 2023",
         },
         {
@@ -38,11 +38,11 @@ const Gallery = () => {
             title: "Ubuntu 2023",
         },
         {
-            src: "/Ubuntufest/Gallery/G9.jpg",
+            src: "/Ubuntufest/Gallery/G9.webp",
             title: "Ubuntu 2023",
         },
         {
-            src: "/Ubuntufest/Gallery/G10.jpg",
+            src: "/Ubuntufest/Gallery/G10.webp",
             title: "Ubuntu 2023",
         },
 

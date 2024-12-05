@@ -7,11 +7,11 @@ import Slider from "./Slider";
 
 const HomePage = () => {
     const images = [
-        "/Ubuntufest/Gallery/G6.png", // Ensure these paths are correct
-        "/Ubuntufest/Gallery/G7.png",
-        "/Ubuntufest/Gallery/G8.png",
-        "/Ubuntufest/Gallery/G4.png",
-        "/Ubuntufest/Gallery/G5.png"
+        "/Ubuntufest/Gallery/G6.webp", // Ensure these paths are correct
+        "/Ubuntufest/Gallery/G7.webp",
+        "/Ubuntufest/Gallery/G8.webp",
+        "/Ubuntufest/Gallery/G4.webp",
+        "/Ubuntufest/Gallery/G5.webp"
     ];
 
     useEffect(() => {

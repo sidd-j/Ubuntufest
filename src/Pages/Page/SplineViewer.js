@@ -38,7 +38,7 @@ const SplineComponent = () => {
             {isMobile ? (
                 <div
                     className="background-image"
-                    style={{ backgroundImage: 'url(/Ubuntufest/MainImage.jpg)' }}
+                    style={{ backgroundImage: 'url(/Ubuntufest/MainImage.webp)' }}
                 ></div>
 
             ) : (
