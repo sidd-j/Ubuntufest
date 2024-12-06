@@ -323,131 +323,113 @@ body {
     /* Ensure bold text is clearly visible */
 }
 
-
 @media (max-width: 600px) {
 
-    /* General Body Adjustments for Mobile */
+    /* Body Adjustments */
     body {
-        padding-top: 100px;
+        padding: 0;
+        margin: 0;
         font-size: 14px;
-        line-height: 1.5;
-        /* Slightly smaller base font for mobile readability */
+        line-height: 1.4;
+        overflow-x: hidden;
+        /* Prevent horizontal scrolling */
     }
 
-    /* Event Page Adjustments */
+    /* Event Page */
     .event-page {
-        padding: 20px 10px;
-        /* Reduced padding for smaller screens */
+        padding: 20px;
     }
 
     .event-title {
         font-size: 2rem;
         margin-bottom: 15px;
-        /* Scaled down title size */
+        word-break: break-word;
+        /* Handle long titles */
     }
 
     .event-subtitle {
         font-size: 1rem;
         margin-bottom: 20px;
-        /* Adjusted subtitle size */
     }
 
-    /* Event Grid for Mobile */
+    /* Event Grid */
     .event-grid {
         grid-template-columns: 1fr;
+        /* Single column */
         gap: 20px;
-        /* Single-column layout for better fit */
     }
 
     .event-card {
         padding: 15px;
-        border-radius: 8px;
-        /* Reduced padding and radius */
+        border-radius: 10px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
     }
 
     .event-card h2 {
         font-size: 1.2rem;
-        /* Scaled down card title */
+        margin-bottom: 10px;
     }
 
     .event-price {
         font-size: 1rem;
-        /* Adjusted price font size */
+        margin-top: auto;
     }
 
-    /* Modal Adjustments */
+    /* Modal */
     .event-modal {
         padding: 10px;
         overflow-y: auto;
-
     }
 
     .modal-content {
-        max-width: 90%;
         padding: 20px;
-        max-height: 100%;
-        /* Ensure modal fits within the screen width */
+        max-width: 90%;
+        max-height: 85vh;
+        /* Prevent content from exceeding viewport height */
+        overflow-y: auto;
+        border-radius: 12px;
     }
 
     .modal-content h2 {
         font-size: 1.8rem;
-        /* Slightly smaller modal title */
     }
 
-    /* Button Adjustments for Mobile */
+    /* Buttons */
     .register-button,
     .close-button {
         font-size: 1rem;
-        padding: 10px 15px;
-        /* Smaller button size */
+        padding: 12px;
     }
 
     /* Registration Guidelines */
     .registration-guidelines {
-        padding: 20px 15px;
+        padding: 20px;
         font-size: 1rem;
-        /* Compact padding and consistent font size */
     }
 
     .registration-guidelines .section-title {
-        font-size: 2rem;
-        margin-bottom: 20px;
-        /* Adjusted section title */
-    }
-
-    .registration-guidelines .subheading {
-        font-size: 1.2rem;
-        /* Adjusted subheading size */
+        font-size: 1.8rem;
+        margin-bottom: 15px;
     }
 
     .registration-guidelines li {
         font-size: 0.9rem;
-        margin-bottom: 10px;
-        /* Reduced spacing and font size */
+        line-height: 1.4;
     }
 
-    /* How to Fill Form Section */
+    /* How to Fill Form */
     .how-to-fill-form {
-        padding: 20px 15px;
+        padding: 20px;
         font-size: 1rem;
-        /* Compact padding and adjusted font size */
     }
 
     .how-to-fill-form h2 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         margin-bottom: 15px;
-        /* Scaled down title size */
     }
 
-    .how-to-fill-form p {
-        font-size: 1rem;
-        margin-bottom: 15px;
-        /* Adjusted paragraph spacing */
-    }
-
+    .how-to-fill-form p,
     .how-to-fill-form ol li {
         font-size: 0.9rem;
-        margin-bottom: 10px;
-        /* Reduced font size and spacing */
     }
 }
