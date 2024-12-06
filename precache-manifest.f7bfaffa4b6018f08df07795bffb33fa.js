@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6399d1d9011d3ecda87476568358cffd",
+    "revision": "d178ea93acc4a196988843a812574e2b",
     "url": "/Ubuntufest/index.html"
   },
   {
-    "revision": "88a13c5f43232760fb86",
-    "url": "/Ubuntufest/static/css/main.06bcef0f.chunk.css"
+    "revision": "589b33946ed3b80b76d1",
+    "url": "/Ubuntufest/static/css/main.deb11126.chunk.css"
   },
   {
     "revision": "96da92f17bb638491840",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ubuntufest/static/js/3.f7c4a44e.chunk.js"
   },
   {
-    "revision": "88a13c5f43232760fb86",
+    "revision": "589b33946ed3b80b76d1",
     "url": "/Ubuntufest/static/js/main.ff04dc56.chunk.js"
   },
   {
