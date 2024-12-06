@@ -139,11 +139,11 @@
     .background-image {
         background-size: cover;
         background-position: center;
-        opacity: 20%;
+        opacity: 40%;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
     /* Further reduce title size */
     .content-overlay h1 {

@@ -118,6 +118,9 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+
 }
 
 .modal-content {
@@ -130,6 +133,9 @@ body {
     color: #ffffff;
     position: relative;
     width: 90%;
+    height: 100%;
+    max-height: fit-content;
+
     /* Improved width for responsiveness */
 }
 
@@ -372,12 +378,14 @@ body {
     /* Modal Adjustments */
     .event-modal {
         padding: 10px;
-        /* Add padding for mobile responsiveness */
+        overflow-y: auto;
+
     }
 
     .modal-content {
         max-width: 90%;
         padding: 20px;
+        max-height: 100%;
         /* Ensure modal fits within the screen width */
     }
 
