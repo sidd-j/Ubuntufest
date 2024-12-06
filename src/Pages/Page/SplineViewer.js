@@ -38,9 +38,14 @@ const SplineComponent = () => {
             {isMobile ? (
                 <div
                     className="background-image"
-                    style={{ backgroundImage: 'url(/Ubuntufest/MainImage.webp)' }}
+                    style={{
+                        backgroundImage: 'url(/Ubuntufest/MainImage.webp)',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        opacity: 0.4,
+                        height: '100vh', // Ensure full height for the background
+                    }}
                 ></div>
-
             ) : (
                 <spline-viewer
                     className="spline-viewer"
