@@ -24,7 +24,7 @@ const Schedule = () => {
             },
             {
                 name: "Online Gaming: Clash Royale",
-                day: 1
+                day: 2
             },
             {
                 name: "Online Gaming: eFootball",
