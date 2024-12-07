@@ -6,23 +6,23 @@ const Gallery = () => {
     // Dynamically generate the list of images from the `public/Gallery` folder
     const images = [
         {
-            src: "/Ubuntufest/Gallery/G1.png",
+            src: "/Ubuntufest/Gallery/G1.webp",
             title: "Ubuntu 2023",
         },
         {
-            src: "/Ubuntufest/Gallery/G2.png",
+            src: "/Ubuntufest/Gallery/G2.webp",
             title: "Ubuntu 2023",
         },
         {
-            src: "/Ubuntufest/Gallery/G3.png",
+            src: "/Ubuntufest/Gallery/G3.webp",
             title: "Ubuntu 2023",
         },
         {
-            src: "/Ubuntufest/Gallery/G4.png",
+            src: "/Ubuntufest/Gallery/G4.webp",
             title: "Ubuntu 2023",
         },
         {
-            src: "/Ubuntufest/Gallery/G5.png",
+            src: "/Ubuntufest/Gallery/G5.webp",
             title: "Ubuntu 2023",
         },
         {
@@ -30,11 +30,11 @@ const Gallery = () => {
             title: "Ubuntu 2023",
         },
         {
-            src: "/Ubuntufest/Gallery/G7.png",
+            src: "/Ubuntufest/Gallery/G7.webp",
             title: "Ubuntu 2023",
         },
         {
-            src: "/Ubuntufest/Gallery/G8.png",
+            src: "/Ubuntufest/Gallery/G8.webp",
             title: "Ubuntu 2023",
         },
         {
