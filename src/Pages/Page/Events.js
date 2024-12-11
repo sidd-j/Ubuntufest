@@ -145,10 +145,12 @@ const EventPage = () => {
                             <p><strong>Price:</strong> {selectedEvent.price}</p>
                             <div className="modal-buttons">
                                 <button className="register-button" onClick={handleInHouseRegister}>
-                                    In-House Registration
+                                    In-House Registration  (Only for Patkar Collge students.)
+
                                 </button>
                                 <button className="register-button" onClick={handleOutHouseRegister}>
-                                    Out-House Registration
+                                    Out-House Registration  (For Students From other Colleges.)
+
                                 </button>
                             </div>
                             <button className="close-button" onClick={() => setSelectedEvent(null)}>

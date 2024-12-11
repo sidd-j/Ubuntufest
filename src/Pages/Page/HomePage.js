@@ -114,7 +114,7 @@ const HomePage = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        In-House Registration
+                                        In-House Registration  (Only for Patkar Collge students.)
                                     </a>
                                 </li>
                                 <li>
@@ -123,7 +123,7 @@ const HomePage = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        Out-House Registration
+                                        Out-House Registration  (For Students From other Colleges.)
                                     </a>
                                 </li>
                             </ul>
